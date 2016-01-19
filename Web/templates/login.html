@@ -1,0 +1,30 @@
+{% extends "index.html" %}
+
+{% block body %}
+<body>
+
+    {% block container %}
+
+    <div class="" id="login">
+        <img src="../static/img/GOAT.png" alt="goat" class="logo-container"/>
+        <form method="post">
+            <input type='hidden' name='csrfmiddlewaretoken' value='MSBWTwBs4iNmhZY2I07GgqJxWVTCAPNN' />
+            <div class="login-form">
+                {% csrf_token %}
+                <h3 class="login-title">Welcome to GOAT</h3>
+                <h4 class="login-subtitle">Genetic-Output-Analysis-Tool</h4>
+                <p class="login-error">{{ error|safe }}</p>
+                <div class="login-block">
+                    <h1>Login</h1>
+                    <input type="text" value="" placeholder="Username" id="username" name="username"/>
+                    <input type="password" value="" placeholder="Password" id="password" name="password" />
+                    <input type="submit" class="login-btn" value="Login"/>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    {% endblock container %}
+
+</body>
+{% endblock body %}

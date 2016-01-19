@@ -5,7 +5,9 @@ from bokeh.models import Plot
 from bokeh.embed import components
 from bokeh.resources import Resources
 from bokeh.plotting import figure, output_file, show, ColumnDataSource
-from bokeh.models import HoverTool, BoxSelectTool, BoxZoomTool, CrosshairTool, WheelZoomTool, ResizeTool, ResetTool, PanTool
+from bokeh.models import HoverTool, BoxSelectTool, BoxZoomTool, CrosshairTool, WheelZoomTool, ResizeTool, ResetTool, PanTool, PreviewSaveTool
+
+from bokeh.models.widgets import DataTable, DateFormatter, TableColumn
 
 # For testing purpose
 from random import *
@@ -50,13 +52,13 @@ def areaSelection(request):
             ("index", "$index"),
             ("(x,y)", "($x, $y)"),
         ]
-    ), BoxSelectTool(), BoxZoomTool(), CrosshairTool(), WheelZoomTool(), ResizeTool(), ResetTool(), PanTool()]
+    ), BoxSelectTool(), BoxZoomTool(), CrosshairTool(), WheelZoomTool(), ResizeTool(), ResetTool(), PanTool(), PreviewSaveTool()]
 
     # Then we create the plot
     p = figure(plot_width=1500, plot_height=800, title="Test Plot with Bokeh", tools=tools)
 
     # Then we start drawing on it
-    p.square('x', 'y', size=4, color="black", alpha=1, source=dataSource)
+    p.circle('x', 'y', size=4, color="black", alpha=1, source=dataSource)
 
     # p.square([1, 2, 3, 4, 5], [6, 7, 2, 4, 5], size=20, color="olive", alpha=0.5)
 
