@@ -1,14 +1,21 @@
 from django.conf.urls import url
 from django.contrib import admin
+from django.conf.urls.static import static
 
-from Web import views
+from Web import views as web
+from bokeh_GOAT import views as bokehGOAT
 
+# Config variables
+import settings
+
+print settings.STATIC_ROOT
+print settings.STATIC_URL
 urlpatterns = [
-    url(r'^$', views.index),
-    url(r'^login', views.login),
-    url(r'^logout', views.logout),
-    url(r'^areaSelection', views.areaSelection),
-    url(r'^table/', views.table),
-    url(r'^manhattan', views.manhattan),
+    url(r'^$', web.index),
+    url(r'^login', web.login),
+    url(r'^logout', web.logout),
+    url(r'^table/', web.table),
+    url(r'^areaSelection', bokehGOAT.areaSelection),
+    url(r'^manhattan', bokehGOAT.manhattan),
     url(r'^admin/', admin.site.urls),
-]
+] +static(settings.STATIC_URL,document_root=settings.STATIC_ROOT)

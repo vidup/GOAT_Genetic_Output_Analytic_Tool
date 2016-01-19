@@ -14,22 +14,14 @@ def login(request):
     print request
     return HttpResponse('Login')
 
-# Area Selection
-def areaSelection(request):
-    print request
-    return HttpResponse('Area Selection Bokeh interactive Plot')
 
 # HTML Table & Static Manhattan file
 def table(request):
     print request
     return HttpResponse('Table & Static Manhattan plot')
 
-# Manhattan interactive plot
-def manhattan(request):
-    print request
-    return HttpResponse('Interactive Manhattan')
-
 # Logout
 def logout(request):
     print request
     return HttpResponse('Logout')
+
