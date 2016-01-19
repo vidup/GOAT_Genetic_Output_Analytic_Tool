@@ -8,8 +8,7 @@ from bokeh_GOAT import views as bokehGOAT
 # Config variables
 import settings
 
-print settings.STATIC_ROOT
-print settings.STATIC_URL
+print "Server is starting now !"
 urlpatterns = [
     url(r'^$', web.index),
     url(r'^login', web.login),

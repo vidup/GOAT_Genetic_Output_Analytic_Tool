@@ -4,7 +4,12 @@ from django.http import HttpResponse
 from bokeh.models import Plot
 from bokeh.embed import components
 from bokeh.resources import Resources
-from bokeh.plotting import figure, output_file, show
+from bokeh.plotting import figure, output_file, show, ColumnDataSource
+from bokeh.models import HoverTool, BoxSelectTool, BoxZoomTool, CrosshairTool, WheelZoomTool, ResizeTool, ResetTool, PanTool
+
+# For testing purpose
+from random import *
+from math import *
 
 
 # Area Selection
@@ -20,12 +25,40 @@ def areaSelection(request):
     # embed_script, embed_div = components(plot, resources=Resources())
 
 
-
+    # Shows in which template we want to display the file
     output_file("plot.html")
 
-    p = figure(plot_width=400, plot_height=400)
-    # We add a square renderer with a size, color, and alpha
-    p.square([1, 2, 3, 4, 5], [6, 7, 2, 4, 5], size=20, color="olive", alpha=0.5)
+    # First we fetch our data (here we create it to simulate)
+    x_coordinates = []
+    y_coordinates = []
+
+    dataSource = ColumnDataSource(
+        data=dict(
+            x=x_coordinates,
+            y=y_coordinates,
+        )
+    )
+
+    for x in range(0, 20000):
+        x_coordinates.append(int(15000 * random()))
+        y_coordinates.append(int(15000 * random()))
+
+    # Then we set what tools we want for the plot (Hover, select, pan, wheel-zoom, etc.)
+    # TOOLS = 'box_zoom,box_select,crosshair,wheel_zoom,resize,reset,hover'
+    tools = [HoverTool(
+        tooltips=[
+            ("index", "$index"),
+            ("(x,y)", "($x, $y)"),
+        ]
+    ), BoxSelectTool(), BoxZoomTool(), CrosshairTool(), WheelZoomTool(), ResizeTool(), ResetTool(), PanTool()]
+
+    # Then we create the plot
+    p = figure(plot_width=1500, plot_height=800, title="Test Plot with Bokeh", tools=tools)
+
+    # Then we start drawing on it
+    p.square('x', 'y', size=4, color="black", alpha=1, source=dataSource)
+
+    # p.square([1, 2, 3, 4, 5], [6, 7, 2, 4, 5], size=20, color="olive", alpha=0.5)
 
     # show(p) #shows locally the result
 
