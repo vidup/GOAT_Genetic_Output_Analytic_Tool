@@ -1,87 +1,37 @@
 <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="static/css/screen.css">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/bootstrap-theme.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <style>
+      body {
+        background-color: #eee;
+      }
+    </style>
+    <title>GOAT</title>
+  </head>
+  <body>
 
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html">
+    <div id="header" class="container-fluid">
 
-    {% block head %}
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>GOAT</title>
+    </div>
 
-        <!-- StyleSheets -->
-        <link href="../static/css/bootstrap.css" rel="stylesheet">
-        <link href="../static/css/bokeh-0.11.0.min.css" rel="stylesheet">
-
-        <link href="../static/css/app.css" rel="stylesheet" />
-
-
-        <!-- Scripts -->
-        <!--<script src="../static/js/jquery-2.1.4.min.js"></script>-->
-        <!--<script src="../static/js/jquery.cookie.js"></script>-->
-        <!--<script src="../static/js/bootstrap.js"></script>-->
-        <script src="../static/js/bokeh-0.11.0.min.js"></script>
-        <script src="../static/js/underscore-min.js"></script>
-        <script src="../static/js/JSXTransformer.js"></script>
-        <script src="../static/js/react.js"></script>
-        <script src="../static/js/griddle.js"></script>
-
-    </head>
-    {% endblock head %}
-
-    {% block body %}
-        <body>
-            <button id="table">
-                Test Table
-            </button>
-
-            <button id="csv" style="display:none;">
-                GET CSV
-                <!--
-                    For now we just make a get request. On the server it'll fetch the data again from the database
-                    But, after the session system is in place, we'll just cache the lines in the User object and generate
-                    a CSV file with them.
-                 -->
-            </button>
+    <div id="menu" class="container menu" style="z-index : 9999; width:0;">
 
 
-            <div id="gallery">
-                <!-- This is where we'll display all of content -->
-            </div>
+    </div>
 
+    <div style="margin-top: 10px" class="container-fluid content">
+        <div id="application">
 
-            <!--<script src="../static/js/app.js"></script>-->
-            <script type="text/jsx">
-                var tableDisplay = function(data){
-                    React.render(
-                        <Griddle results={data} useGriddleStyles={false} resultsPerPage={5} enableInfiniteScroll={true}  bodyHeight={500} showSettings={true} showFilter={true} noDataMessage={"No data"} />,
-                        document.getElementById('gallery')
-                    );
-                    document.getElementById('csv').style.display = "block";
-                }
-
-                var button = document.getElementById('table');
-                button.addEventListener('click', function(e){
-                    e.preventDefault();
-                    var xhr = new XMLHttpRequest();
-                    xhr.open('GET', encodeURI('/table'));
-                    xhr.onload = function(){
-                      if(xhr.status==200){
-                          console.log('data received');
-                        tableDisplay(JSON.parse(xhr.responseText));
-                      }else{
-                        console.error("GOAT here : We couldn't get your data. Check the route, or your connection");
-                      };
-                    };
-                    xhr.send();
-                });
-
-                var buttonCSV = document.getElementById('csv');
-                buttonCSV.addEventListener('click', function(e){
-                    e.preventDefault();
-                    window.location = "/table_csv/spock3"; //Doesn't change the page but launches the download
-                });
-
-            </script>
-        </body>
-    {% endblock body %}
-
+        </div>
+    </div>
+    <script src="static/js/jquery-1.11.3.min.js"></script>
+    <script src="static/js/bokeh-0.11.0.min.js"></script>
+    <script src="static/js/main.js"></script>
+  </body>
 </html>
