@@ -1,7 +1,7 @@
 //Dependencies
 var React = require('react');
 var SnpActions = require('../../reflux/SnpActions.jsx');
-
+var ManhattanActions = require('../../reflux/ManhattanActions.jsx');
 //SubComponents
 var InputSNP = require('./InputSNP.jsx');
 var InputGene = require('./InputGene.jsx');
@@ -15,7 +15,25 @@ var QueryForm = React.createClass({
       value : ""
     }
   },
-  onSubmit : function(e){
+  onSubmitManhattan : function(e){
+    e.preventDefault();
+    var isFormatValid;
+    switch(this.state.type){
+      case "rsID" :
+        this.refs.rsID.state.valid? isFormatValid = true : isFormatValid = false;
+        break;
+      case "gene" :
+        this.refs.gene.state.valid? isFormatValid = true : isFormatValid = false;
+        break;
+      case "phenotype":
+        this.refs.phenotype.state.valid? isFormatValid = true : isFormatValid = false;
+        break;
+      default :
+        isFormatValid = false;
+    }
+    isFormatValid? ManhattanActions.getManhattanData(this.state.type, this.state.value) : alert('Your input format isn\'t valid !');
+  },
+  onSubmitTable : function(e){
       e.preventDefault(); // Avoid the Automatic POST request
       // SnpActions.getTableData("/table/"+this.state.type+"/"+this.state.value);
       var isFormatValid;
@@ -47,7 +65,8 @@ var QueryForm = React.createClass({
   render : function(){
 
     var divStyle = {
-      padding: "15px"
+      padding: "15px",
+      textAlign : "center"
     }
 
     var centerStyle = { //To center elements
@@ -57,6 +76,9 @@ var QueryForm = React.createClass({
         fontSize : "1.5em"
     }
 
+    var buttonStyle = {
+      margin : "10px 10px"
+    }
     return (
       <form role="form" style={divStyle}>
         <div className="form-group" onChange={this.onRsIDChange}>
@@ -71,7 +93,8 @@ var QueryForm = React.createClass({
           <label style = {centerStyle}>Phenotype</label>
           <InputPhenotype type="phenotype" ref="phenotype" placeholder="Phenotype -- Enter the name of the Phenotype" activeType ={this.state.type} />
         </div>
-        <button onClick={this.onSubmit} style = {centerStyle} type="submit" className="btn btn-primary">Submit</button>
+        <button onClick={this.onSubmitManhattan} style = {buttonStyle} type="submit" className="btn btn-primary">Interactive Manhattan</button>
+        <button onClick={this.onSubmitTable} style = {buttonStyle} type="submit" className="btn btn-primary">Table Data</button>
       </form>
     );
   }

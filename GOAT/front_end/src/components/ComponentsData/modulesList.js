@@ -2,13 +2,17 @@
 
 //Dependencies
 var SnpActions = require('../../reflux/SnpActions.jsx');
+var ManhattanActions = require('../../reflux/ManhattanActions.jsx');
 
+//Variables
+var oddClass = "col-xs-10 col-xs-offset-1 col-md-4";
+var evenClass = "col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-2";
 module.exports= [
   {
-    heading:"Gene Query",
+    heading:"Gene Query & Manhattan",
     content : "Displays a table of snps and a list of relevant phenotypes",
     height : "auto",
-    size : "col-xs-10 col-xs-offset-1 col-md-4",
+    size : oddClass,
     url : "/table", //Testing Url.
     action : function(){
       SnpActions.queryParams();
@@ -18,22 +22,25 @@ module.exports= [
     heading :"Area Selection",
     content : "Requires a position, and displays a zoomed-in, interactive Manhattan plot",
     height : "auto",
-    size : "col-xs-10 col-xs-offset-2 col-md-4"
-  },
-  {
-    heading :"Manhattan",
-    content : "Displays a Manhattan plot for a selected treshold",
-    caution : "Takes a long time to run (5min)",
-    height : "auto",
-    size : "col-xs-10 col-xs-offset-1 col-md-4",
+    size : evenClass,
     action : function(){
-      SnpActions.goManhattan();
+      SnpActions.getAreaSelection();
     }
   },
+  // {
+  //   heading :"Manhattan",
+  //   content : "Displays a Manhattan plot for a selected treshold",
+  //   caution : "Takes a long time to run (5min)",
+  //   height : "auto",
+  //   size : "col-xs-10 col-xs-offset-1 col-md-4",
+  //   action : function(){
+  //     ManhattanActions.getManhattanData();
+  //   }
+  // },
   {
     heading :"Machine Learning",
     content : "Coming soon...",
     height : "auto",
-    size : "col-xs-10 col-xs-offset-2 col-md-4"
+    size : oddClass
   }
 ];

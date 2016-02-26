@@ -7,18 +7,21 @@ var ReactDOM = require('react-dom');
 var Reflux = require('reflux');
 var SnpActions = require('../reflux/SnpActions.jsx');
 var SnpStore = require('../reflux/SnpStore.jsx');
+var ManhattanActions = require('../reflux/ManhattanActions.jsx');
+var ManhattanStore = require('../reflux/ManhattanStore.jsx');
 
 //Sub Components
 var HomePage = require("./HomePage.jsx");
 var TablePage = require("./TablePage.jsx");
 var QueryParamsPage = require('./QueryParamsPage.jsx');
+var ManhattanPage = require('./ManhattanPage.jsx');
 
 //Test Page to try new components
 var TestPage = require("./TestPage.jsx");
 
 //Component
 var Base = React.createClass({
-  mixins : [Reflux.listenTo(SnpStore, 'onChange')],
+  mixins : [Reflux.listenTo(SnpStore, 'onChange'), Reflux.listenTo(ManhattanStore, 'onChange')],
   getInitialState : function(){
     return {
       appState : "Home",
@@ -45,6 +48,14 @@ var Base = React.createClass({
           snps : []
         });
         break;
+      case "manhattan" :
+        console.log(data);
+        this.setState({
+          appState : "Manhattan",
+          function : data[0],
+          div : data[1]
+        });
+        break;
       case "test" :
         this.setState({
           appState : "Test",
@@ -68,6 +79,9 @@ var Base = React.createClass({
         break;
       case "QueryParams":
         return <QueryParamsPage />
+        break;
+      case "Manhattan":
+        return <ManhattanPage  function={this.state.function} div={this.state.div}/>
         break;
       case "Test" :
         return <TestPage/>

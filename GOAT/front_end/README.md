@@ -2,4 +2,4 @@
 By Victor Dupuy
 
 This is GOAT's new Front-end. It's a Single Page Application built with Facebook's ReactJS library.
-For now, it only includes React, but next version will be set on top of a Flux architecture.
+Its architecture is built using Reflux, which implements the Flux design pattern.

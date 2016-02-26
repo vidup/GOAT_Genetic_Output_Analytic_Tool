@@ -62,6 +62,9 @@ var SnpStore = Reflux.createStore({
     };
     xhr.send();
     this.trigger('getManhattanDiv', 'Get Manhattan Div')
+  },
+  getAreaSelection : function(){
+    console.log('Get AreaSelection')
   }
 });
 

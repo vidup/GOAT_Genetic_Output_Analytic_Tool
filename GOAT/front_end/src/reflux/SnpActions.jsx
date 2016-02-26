@@ -6,7 +6,8 @@ var Actions = Reflux.createActions([
   'queryParams',
   'goTest',
   'goManhattan',
-  'getManhattanDiv'
+  'getManhattanDiv',
+  'getAreaSelection'
 ]);
 
 module.exports = Actions;

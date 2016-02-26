@@ -23,14 +23,12 @@ import re as regex
 from random import *
 from math import *
 
+#--- Tools ---#
+from Tools import connect
+from Tools import getPhenotypes
+
 #--- Global variables until session system is in place ---#
 global manhattanDiv
-
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - Functions - - - - - - - - - - - - - - - - - - - - - - - - - -  #
-
-# Returns a dataframe containing the data returned b the SQL Query
-def fetchData(sqlQuery):
-    return pandas.read_sql(sqlQuery, connection)
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - Views - - - - - - - - - - - - - - - - - - - - - - - - - - - -  #
 
@@ -94,54 +92,52 @@ def areaSelection(request):
 
 
 # Manhattan interactive plot
-def manhattan(request, x, y):
+def manhattan(request, type, value, x, y):
     global manhattanDiv
     print request
-    print "x : "+x
-    print "y : "+y
+    # print "x : "+x
+    # print "y : "+y
     # Here, add user's phenotypes
-    data = getManhattanData()
+    data = getManhattanData(type, value)
     # print data
     graph, div = generateManhattan(data, "0.001", int(x), int(y))
     # print graph
     # print div
-    manhattanDiv = div
+    manhattanDiv = div #For now we set it in a global variable. Next it will be on a user database.
     responseData = graph
     return HttpResponse(responseData)
-
-    # This is the code used in order to get the code from the object we send to the front-end, in JavaScript
-    # var xhr = new XMLHttpRequest();
-    # xhr.open('GET', encodeURI("/manhattan"), true);
-    # xhr.onload = function(){
-    #   if(xhr.status==200){
-    #      var response = xhr.responseText.slice(32,-9); // Remove the first 31 characters (<script text="type/javascript">) and the last 8 characters (</script>)
-    #      console.log(response)
-    #   }else{
-    #     console.error("GOAT here : We couldn't get your data. Check the route, or your connection");
-    #   };
-    # };
-    # xhr.send();
 
 def getManhattanDiv(request):
     print request
     global manhattanDiv
-    print "Here in getManhattanDiv function, in 'manhattan/div' route. The div value is : "
-    print manhattanDiv
+    # print "Here in getManhattanDiv function, in 'manhattan/div' route. The div value is : "
+    # print manhattanDiv
     return HttpResponse(manhattanDiv)
 
-def getManhattanData():
-    phenotype = "All cause death"
-    sqlQuery="select distinct a.rs_id_assoc, a.chromosome,a.pos,a.info_assoc,a.pvalue_assoc,a.allele_A,a.allele_B,a.cohort_AA,a.cohort_BB,a.beta_assoc,a.maf, a.all_OR,xp.covariates,m.gene,m.gene_before,m.gene_after from assoc a join experiment xp on a.experiment=xp.idexperiment join phenotypes  p  on xp.phenotype=p.idphenotypes join marqueurs m on a.rs_id_assoc=m.nom where p.nom='"+phenotype+"' and a.pvalue_assoc<=0.001"
-    sorted_data = fetchData(sqlQuery)
+def getManhattanData(type, value):
 
-    sorted_data.drop_duplicates(subset='rs_id_assoc', inplace=True,keep='last')
-    sorted_data["log10"] = -numpy.log10(sorted_data.pvalue_assoc)               #ADD COLUMN LOG10
-    sorted_data = sorted_data.sort(['chromosome', 'pos'])
-    sorted_data['even']=numpy.where(sorted_data['chromosome'] %2==0,sorted_data['log10'] , 'NaN')
-    sorted_data["odd"]=numpy.where(sorted_data['chromosome'] %2!=0,sorted_data['log10'] , 'NaN')
-    col=['rs_id_assoc', 'chromosome', 'pos', 'pvalue_assoc', 'allele_A', 'allele_B', 'covariates', 'cohort_BB', 'cohort_AA', 'beta_assoc', 'maf']
+    # We'll need to get which phenotypes are selected.
+    significantPhenotypes = getPhenotypes.getSignigicantPhenotypes(type, value)
+    if significantPhenotypes.any()['nom']: # Check if there are significant phenotypes
+        phenotype = getPhenotypes.getSignigicantPhenotypes(type, value).iat[0,0] #This gets the name of the significant phenotype
+        # phenotype = "All cause death"
+        # First we define the query
+        sqlQuery="select distinct a.rs_id_assoc, a.chromosome,a.pos,a.info_assoc,a.pvalue_assoc,a.allele_A,a.allele_B,a.cohort_AA,a.cohort_BB,a.beta_assoc,a.maf, a.all_OR,xp.covariates,m.gene,m.gene_before,m.gene_after from assoc a join experiment xp on a.experiment=xp.idexperiment join phenotypes  p  on xp.phenotype=p.idphenotypes join marqueurs m on a.rs_id_assoc=m.nom where p.nom='"+phenotype+"' and a.pvalue_assoc<=0.001"
 
-    return sorted_data
+        # Then we fetch the data and store it in a dataframe
+        sorted_data = connect.fetchData(sqlQuery)
+
+        sorted_data.drop_duplicates(subset='rs_id_assoc', inplace=True,keep='last')
+        sorted_data["log10"] = -numpy.log10(sorted_data.pvalue_assoc)               #ADD COLUMN LOG10
+        sorted_data = sorted_data.sort(['chromosome', 'pos'])
+        sorted_data['even']=numpy.where(sorted_data['chromosome'] %2==0,sorted_data['log10'] , 'NaN')
+        sorted_data["odd"]=numpy.where(sorted_data['chromosome'] %2!=0,sorted_data['log10'] , 'NaN')
+        col=['rs_id_assoc', 'chromosome', 'pos', 'pvalue_assoc', 'allele_A', 'allele_B', 'covariates', 'cohort_BB', 'cohort_AA', 'beta_assoc', 'maf']
+        return sorted_data
+
+    else:
+        print "There is no phenotype !"
+        return "No Phenotype !"
 
 def generateManhattan( manhattanData, treshold, userWidth, userHeight):
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
@@ -181,8 +177,8 @@ def generateManhattan( manhattanData, treshold, userWidth, userHeight):
             ("Gene", "@gene"),
             ("P-value","@pvalue_assoc"),
         ]
-    ), BoxSelectTool(), BoxZoomTool(), CrosshairTool(), WheelZoomTool(), ResizeTool(), ResetTool(), PanTool(), PreviewSaveTool(), TapTool()]
-
+    ), CrosshairTool(), WheelZoomTool(), ResizeTool(), ResetTool(), PanTool(), PreviewSaveTool(), TapTool()]
+#  BoxSelectTool(), BoxZoomTool(),
     plot = figure(
         title="Manhattan Plot",
         tools=TOOLS,

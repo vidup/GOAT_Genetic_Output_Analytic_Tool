@@ -16,7 +16,9 @@ var TestPage = React.createClass({
   render: function() {
     return (
       <div>
+        <div id="graph" className="col-sm-12">
 
+        </div>
       </div>
     );
   }

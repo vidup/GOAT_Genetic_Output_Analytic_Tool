@@ -20,12 +20,18 @@ module.exports = [
   },
   {
     content : "AREA SELECTION",
-    url : '/areaSelection'
+    url : '/areaSelection',
+    action : function(){
+      SnpActions.getAreaSelection();
+    }
   },
-  {
-    content : "MANHATTAN",
-    url : '/manhattan'
-  },
+  // {
+  //   content : "MANHATTAN",
+  //   url : '/manhattan',
+  //   action : function(){
+  //     SnpActions.getManhattanDiv();
+  //   }
+  // },
   {
     content : "MACHINE LEARNING",
     url : '/machineLearning'
