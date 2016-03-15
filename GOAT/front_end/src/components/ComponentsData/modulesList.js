@@ -3,6 +3,7 @@
 //Dependencies
 var SnpActions = require('../../reflux/SnpActions.jsx');
 var ManhattanActions = require('../../reflux/ManhattanActions.jsx');
+var AreaSelectionActions = require('../../reflux/AreaSelectionActions.jsx');
 
 //Variables
 var oddClass = "col-xs-10 col-xs-offset-1 col-md-4";
@@ -24,7 +25,7 @@ module.exports= [
     height : "auto",
     size : evenClass,
     action : function(){
-      SnpActions.getAreaSelection();
+      AreaSelectionActions.queryParams();
     }
   },
   // {
@@ -42,5 +43,10 @@ module.exports= [
     content : "Coming soon...",
     height : "auto",
     size : oddClass
+  },{
+    heading : "Phenotype Comparison",
+    content : "Coming soon too",
+    height : "auto",
+    size : evenClass
   }
 ];

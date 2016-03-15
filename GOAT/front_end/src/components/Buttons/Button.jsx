@@ -15,9 +15,12 @@ var Button = React.createClass({
   },
   render: function(){
     var buttonStyle= {
-      marginBottom : 15
+      display : "block",
+      margin : this.props.margin? this.props.margin : "auto",
+      marginBottom : 15,
+      marginTop : this.props.marginTop? this.props.marginTop : 0
     }
-    return (<button onClick={this.handleClick} type="button" className={this.state.className} style={buttonStyle}>Access</button>);
+    return (<button onClick={this.handleClick} type="button" className={this.state.className} style={buttonStyle}>{this.props.text? this.props.text : "Access"}</button>);
   }
 });
 

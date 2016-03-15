@@ -9,19 +9,27 @@ var SnpActions = require('../reflux/SnpActions.jsx');
 var SnpStore = require('../reflux/SnpStore.jsx');
 var ManhattanActions = require('../reflux/ManhattanActions.jsx');
 var ManhattanStore = require('../reflux/ManhattanStore.jsx');
-
+var AreaSelectionActions = require('../reflux/AreaSelectionActions.jsx');
+var AreaSelectionStore = require('../reflux/AreaSelectionStore.jsx');
 //Sub Components
 var HomePage = require("./HomePage.jsx");
 var TablePage = require("./TablePage.jsx");
 var QueryParamsPage = require('./QueryParamsPage.jsx');
 var ManhattanPage = require('./ManhattanPage.jsx');
+var AreaSelectionParamsPage = require('./QueryASParamsPage.jsx');
+var AreaSelectionPage = require('./AreaSelectionPage.jsx');
+
 
 //Test Page to try new components
 var TestPage = require("./TestPage.jsx");
 
 //Component
 var Base = React.createClass({
-  mixins : [Reflux.listenTo(SnpStore, 'onChange'), Reflux.listenTo(ManhattanStore, 'onChange')],
+  mixins : [
+    Reflux.listenTo(SnpStore, 'onChange'),
+    Reflux.listenTo(ManhattanStore, 'onChange'),
+    Reflux.listenTo(AreaSelectionStore,'onChange')
+  ],
   getInitialState : function(){
     return {
       appState : "Home",
@@ -52,8 +60,23 @@ var Base = React.createClass({
         console.log(data);
         this.setState({
           appState : "Manhattan",
+          snps : [],
           function : data[0],
           div : data[1]
+        });
+        break;
+      case "areaSelectionQueryParams":
+        console.log("AREA SELECTION");
+        this.setState({
+          appState : "AreaSelectionForm"
+        });
+        break;
+      case "areaSelection":
+        this.setState({
+          appState : "AreaSelection",
+          function : data[0],
+          div : data[1],
+          snps : data[2]
         });
         break;
       case "test" :
@@ -82,6 +105,12 @@ var Base = React.createClass({
         break;
       case "Manhattan":
         return <ManhattanPage  function={this.state.function} div={this.state.div}/>
+        break;
+      case "AreaSelectionForm":
+        return <AreaSelectionParamsPage/>
+        break;
+      case "AreaSelection":
+        return <AreaSelectionPage function={this.state.function} div={this.state.div} snps={this.state.snps}/>
         break;
       case "Test" :
         return <TestPage/>

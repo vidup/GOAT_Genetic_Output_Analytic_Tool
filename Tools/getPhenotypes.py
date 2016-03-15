@@ -17,3 +17,6 @@ def getSignigicantPhenotypes(type, value):
         phenotypes = pandas.DataFrame(data={'nom': value}, index=[0])
 
     return phenotypes
+
+def getAllPhenotypes():
+    phenotypes = connect.fetchData("select p.nom from phenotypes;")

@@ -11,7 +11,7 @@ var ManhattanStore = Reflux.createStore({
     var store = this;
     var xhr = new XMLHttpRequest();
     width = Math.floor($('#application').width()*0.9);
-    height = Math.max(Math.floor($('#application').height()*0.9), 600);
+    height = Math.max(Math.floor($('#application').height()*0.9), 750);
     xhr.open('GET', encodeURI("/manhattan/"+type+"/"+value+"/"+width+"/"+height), true);
     xhr.onload = function(){
       if(xhr.status==200){

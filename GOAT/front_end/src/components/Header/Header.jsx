@@ -19,6 +19,7 @@ var Header = React.createClass({
         <div className = "col-12">
           <h1 style={titleStyle}>{this.props.title}</h1>
           <h2>{this.props.subtitle}</h2>
+          {/*<img src = "static/img/GOAT.png"/>*/}
         </div>
       </div>
     )

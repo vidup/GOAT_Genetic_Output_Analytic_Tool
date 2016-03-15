@@ -7,7 +7,6 @@ var Table = require('./Tables/Table.jsx');
 //Component
 var TablePage = React.createClass({
   render : function(){
-
     var titleStyle = {
       textAlign : "center",
       color : "#ededed"

@@ -16,6 +16,7 @@ var SnpStore = Reflux.createStore({
           console.log('data received');
         //  console.log(JSON.parse(xhr.responseText));
           store.snps = JSON.parse(xhr.responseText);
+          console.log(store.snps);
           store.fireUpdate();
       }else{
         console.error("GOAT here : We couldn't get your data. Check the route, or your connection");

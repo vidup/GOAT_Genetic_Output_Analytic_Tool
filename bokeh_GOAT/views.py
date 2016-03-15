@@ -32,75 +32,16 @@ global manhattanDiv
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - Views - - - - - - - - - - - - - - - - - - - - - - - - - - - -  #
 
-# Area Selection
-def areaSelection(request):
-    print request
-    # First we create the Plot
-    # plot = Plot()
-    # plot.add_glyph()
-    # plot.add_layout()
-    # plot.add_tools()
-
-    # Then we create the corresponding script and div to send to the browser
-    # embed_script, embed_div = components(plot, resources=Resources())
-
-
-    # Shows in which template we want to display the file
-    output_file("plot.html")
-
-    # First we fetch our data (here we create it to simulate)
-    x_coordinates = []
-    y_coordinates = []
-
-    dataSource = ColumnDataSource(
-        data=dict(
-            x=x_coordinates,
-            y=y_coordinates,
-        )
-    )
-
-    for x in range(0, 20000):
-        x_coordinates.append(int(15000 * random()))
-        y_coordinates.append(int(15000 * random()))
-
-    # Then we set what tools we want for the plot (Hover, select, pan, wheel-zoom, etc.)
-    # TOOLS = 'box_zoom,box_select,crosshair,wheel_zoom,resize,reset,hover'
-    tools = [HoverTool(
-        tooltips=[
-            ("index", "$index"),
-            ("(x,y)", "($x, $y)"),
-        ]
-    ), BoxSelectTool(), BoxZoomTool(), CrosshairTool(), WheelZoomTool(), ResizeTool(), ResetTool(), PanTool(), PreviewSaveTool()]
-
-    # Then we create the plot
-    p = figure(plot_width=1500, plot_height=800, title="Test Plot with Bokeh", tools=tools)
-
-    # Then we start drawing on it
-    p.circle('x', 'y', size=4, color="black", alpha=1, source=dataSource)
-
-    # p.square([1, 2, 3, 4, 5], [6, 7, 2, 4, 5], size=20, color="olive", alpha=0.5)
-
-    # show(p) #shows locally the result
-
-    # We create two objects : the script and the HTML <div>.
-    # They'll be sent in the template so that front-end BokehJS can display the data
-    embed_script, embed_div = components(p, resources=Resources())
-
-    return render(request, 'plot.html', {'embed_div': embed_div, 'embed_script': embed_script})
-
-    # return HttpResponse('Area Selection Bokeh interactive Plot')
-
-
 # Manhattan interactive plot
-def manhattan(request, type, value, x, y):
+def manhattan(request, type, value, userWidth, userHeight):
     global manhattanDiv
     print request
     # print "x : "+x
     # print "y : "+y
     # Here, add user's phenotypes
-    data = getManhattanData(type, value)
+    data, phenotype = getManhattanData(type, value)
     # print data
-    graph, div = generateManhattan(data, "0.001", int(x), int(y))
+    graph, div = generateManhattan(data, 0.00000005, phenotype, int(userWidth), int(userHeight))
     # print graph
     # print div
     manhattanDiv = div #For now we set it in a global variable. Next it will be on a user database.
@@ -133,16 +74,14 @@ def getManhattanData(type, value):
         sorted_data['even']=numpy.where(sorted_data['chromosome'] %2==0,sorted_data['log10'] , 'NaN')
         sorted_data["odd"]=numpy.where(sorted_data['chromosome'] %2!=0,sorted_data['log10'] , 'NaN')
         col=['rs_id_assoc', 'chromosome', 'pos', 'pvalue_assoc', 'allele_A', 'allele_B', 'covariates', 'cohort_BB', 'cohort_AA', 'beta_assoc', 'maf']
-        return sorted_data
+        return sorted_data, phenotype
 
     else:
         print "There is no phenotype !"
         return "No Phenotype !"
 
-def generateManhattan( manhattanData, treshold, userWidth, userHeight):
+def generateManhattan( manhattanData, treshold, phenotype, userWidth, userHeight):
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
-    global chr_max_pos
-    global chr_min_pos                          #GLOBAL variables call
     max_v=int(manhattanData.log10.max())
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
     df_slice_dataframe = manhattanData.groupby('chromosome')                                    # CUTS GWAS DATA TO COMPUTE GWAS'S POSITIONS
@@ -164,7 +103,7 @@ def generateManhattan( manhattanData, treshold, userWidth, userHeight):
     full_data=pandas.concat(df_concat_slice)                #recreate original manhattan data with position column added
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
     milieu = []                                                                  # HALF OF CHROMOSOME POSITIONS TO STORE name of chromosomes
-
+    print chr_min_pos
     for n in range(1,len(manhattan_max_pos)):
         milieu.append(manhattan_max_pos[n-1] + ((manhattan_max_pos[n]-manhattan_max_pos[n-1])//2))
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
@@ -177,10 +116,11 @@ def generateManhattan( manhattanData, treshold, userWidth, userHeight):
             ("Gene", "@gene"),
             ("P-value","@pvalue_assoc"),
         ]
-    ), CrosshairTool(), WheelZoomTool(), ResizeTool(), ResetTool(), PanTool(), PreviewSaveTool(), TapTool()]
+    ), CrosshairTool(), WheelZoomTool(), BoxSelectTool(), BoxZoomTool(), ResizeTool(), ResetTool(), PanTool(), PreviewSaveTool(), TapTool()]
 #  BoxSelectTool(), BoxZoomTool(),
     plot = figure(
-        title="Manhattan Plot",
+        webgl=True,
+        title=phenotype,
         tools=TOOLS,
         x_axis_label='Chromosomes',
         y_axis_label='-log10(p)',
@@ -204,8 +144,8 @@ def generateManhattan( manhattanData, treshold, userWidth, userHeight):
             size=3,
             color="black"
     )
-    plot.ray(x=[0],y=[treshold],length=0,angle=0, color='red')
-    plot.ray(x=[0],y=[treshold],length=0, angle=numpy.pi,color='red')
+    plot.ray(x=[0],y=[-numpy.log10(treshold)],length=0,angle=0, color='red')
+    plot.ray(x=[0],y=[-numpy.log10(treshold)],length=0, angle=numpy.pi,color='red')
     plot.axis.major_label_text_font_size='0pt'
     plot.text(milieu, [2.75]*(len(milieu)), text=["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22"], text_color='black', text_align='center', text_font_size='8pt', text_font_style='bold')
     plot.text(milieu[(len(milieu)/2)-4],[2.25],text=["Chromosomes"], text_color='black', text_align='center', text_font_size='10pt', text_font_style='bold')
