@@ -1,23 +1,52 @@
+/*Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.*/
+
+// Author of the file : Victor Dupuy
+// mail : victor.dupuy@hei.fr
+
 var Reflux = require('reflux');
 var SnpActions = require('./SnpActions.jsx');
 
 var SnpStore = Reflux.createStore({
   listenables : [SnpActions],
-  fireUpdate : function(){
+  fireUpdate : function(action){
     //We trigger this function when we want to refresh the data
-    this.trigger('table', this.snps);
+    this.trigger(action, [this.snps, this.phenotypes]);
   },
   getTableData : function(url){
     var store = this;
     var xhr = new XMLHttpRequest();
     xhr.open('GET', encodeURI(url), true);
+    store.trigger('wait');
     xhr.onload = function(){
       if(xhr.status==200){
-          console.log('data received');
-        //  console.log(JSON.parse(xhr.responseText));
-          store.snps = JSON.parse(xhr.responseText);
-          console.log(store.snps);
-          store.fireUpdate();
+        result = JSON.parse(xhr.responseText);
+        if(!result.noResult){
+          store.snps = JSON.parse(result.data);
+          store.phenotypes = [];
+          for(phenotype of JSON.parse(result.phenotypes)){
+            store.phenotypes.push(phenotype.nom);
+          }
+          store.phenotypes = JSON.parse(result.phenotypes);
+          store.fireUpdate('table');
+        }else{
+          console.log('Error');
+          store.fireUpdate('noPhenotype');
+        }
       }else{
         console.error("GOAT here : We couldn't get your data. Check the route, or your connection");
       };
@@ -30,8 +59,20 @@ var SnpStore = Reflux.createStore({
   goTest : function(url){
     this.trigger('test', "Go TEST")
   },
-  queryParams : function(url){
-    this.trigger('queryParams', "Form to set query parameters !")
+  queryParams : function(message){
+    // console.log(chromosome, position, phenotype);
+    var store = this;
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', encodeURI("/phenotypes", true));
+    xhr.onload = function(){
+      if(xhr.status==200){
+         store.phenotypes = JSON.parse(xhr.responseText);
+         store.trigger('queryParams', [store.phenotypes, message]);
+      }else{
+        console.error("GOAT here : We couldn't get your data. Check the route, or your connection");
+      };
+    };
+    xhr.send();
   },
   goManhattan : function(){
     this.trigger('goManhattan', "Manhattan Page !")

@@ -1,3 +1,25 @@
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership.  The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License.  You may obtain a copy of the License at
+#
+#   http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an
+# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied.  See the License for the
+# specific language governing permissions and limitations
+# under the License.
+
+# Authors of this page : Beatriz Kanzki & Victor Dupuy
+
+
+#!/usr/bin/Python-2.7.11
+
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.db import connection # Used to connect with the database
@@ -26,6 +48,7 @@ from math import *
 #--- Tools ---#
 from Tools import connect
 from Tools import getPhenotypes
+from Tools import UserLogs
 
 #--- Global variables until session system is in place ---#
 global manhattanDiv
@@ -36,6 +59,7 @@ global manhattanDiv
 def manhattan(request, type, value, userWidth, userHeight):
     global manhattanDiv
     print request
+
     # print "x : "+x
     # print "y : "+y
     # Here, add user's phenotypes
@@ -67,7 +91,13 @@ def getManhattanData(type, value):
 
         # Then we fetch the data and store it in a dataframe
         sorted_data = connect.fetchData(sqlQuery)
-
+        UserLogs.add(
+            'Victor Dupuy',
+            '255.255.255.255',
+            'accessed the module : Interactive Manhattan',
+            'MySQL Database',
+            ['assoc', 'phenotypes', 'marqueurs']
+        )
         sorted_data.drop_duplicates(subset='rs_id_assoc', inplace=True,keep='last')
         sorted_data["log10"] = -numpy.log10(sorted_data.pvalue_assoc)               #ADD COLUMN LOG10
         sorted_data = sorted_data.sort(['chromosome', 'pos'])

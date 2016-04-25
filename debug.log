@@ -1,0 +1,2124 @@
+[23/Mar/2016 09:55:05] ERROR [django.request:284] Internal Server Error: /table/phenotype/All cause death/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 47, in table
+    ['assoc', 'phenotypes', 'marqueurs']
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Tools\UserLogs.py", line 9, in add
+    log = IPAdress + ' : ' + userName + ' ' + userInteraction + ' from ' + datasource
+NameError: global name 'datasource' is not defined
+[23/Mar/2016 09:55:47] ERROR [django.request:284] Internal Server Error: /table/phenotype/All cause death/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 47, in table
+    ['assoc', 'phenotypes', 'marqueurs']
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Tools\UserLogs.py", line 10, in add
+    log = IPAdress + ' : ' + userName + ' ' + userInteraction + ' from ' + datasource
+NameError: global name 'datasource' is not defined
+[23/Mar/2016 09:56:22] ERROR [django.request:284] Internal Server Error: /table/phenotype/All cause death/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 47, in table
+    ['assoc', 'phenotypes', 'marqueurs']
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Tools\UserLogs.py", line 9, in add
+    log = IPAdress + ' : ' + userName + ' ' + userInteraction + ' from ' + datasource
+NameError: global name 'datasource' is not defined
+[23/Mar/2016 09:57:00] ERROR [django.request:284] Internal Server Error: /table/phenotype/All cause death/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 47, in table
+    ['assoc', 'phenotypes', 'marqueurs']
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Tools\UserLogs.py", line 9, in add
+    log = '' + IPAdress + ' : ' + userName + ' ' + userInteraction + ' from ' + datasource
+NameError: global name 'datasource' is not defined
+[23/Mar/2016 09:57:20] ERROR [django.request:284] Internal Server Error: /table/phenotype/All cause death/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 47, in table
+    ['assoc', 'phenotypes', 'marqueurs']
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Tools\UserLogs.py", line 9, in add
+    log = '' + IPAdress + ' : ' + userName + ' ' + userInteraction + ' from ' + datasource
+NameError: global name 'datasource' is not defined
+[23/Mar/2016 09:57:50] ERROR [django.request:284] Internal Server Error: /table/phenotype/All cause death/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 47, in table
+    ['assoc', 'phenotypes', 'marqueurs']
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Tools\UserLogs.py", line 10, in add
+    log = '' + IPAdress + ' : ' + userName + ' ' + userInteraction + ' from ' + datasource
+NameError: global name 'datasource' is not defined
+[23/Mar/2016 09:58:01] ERROR [django.request:284] Internal Server Error: /table/phenotype/All cause death/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 47, in table
+    ['assoc', 'phenotypes', 'marqueurs']
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Tools\UserLogs.py", line 10, in add
+    log = '' + IPAdress + ' : ' + userName + ' ' + userInteraction + ' from ' + datasource
+NameError: global name 'datasource' is not defined
+[23/Mar/2016 09:59:28] ERROR [django.request:284] Internal Server Error: /table/phenotype/All cause death/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 47, in table
+    ['assoc', 'phenotypes', 'marqueurs']
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Tools\UserLogs.py", line 9, in add
+    log = str('' + IPAdress + ' : ' + userName + ' ' + userInteraction + ' from ' + datasource)
+NameError: global name 'datasource' is not defined
+[23/Mar/2016 10:01:42] ERROR [django.request:284] Internal Server Error: /table/phenotype/All cause death/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 47, in table
+    ['assoc', 'phenotypes', 'marqueurs']
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Tools\UserLogs.py", line 11, in add
+    UserAccessSimple.info('Tables : ' + tableNames)
+TypeError: cannot concatenate 'str' and 'list' objects
+[23/Mar/2016 10:03:33] ERROR [django.request:284] Internal Server Error: /table/phenotype/All cause death/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 47, in table
+    ['assoc', 'phenotypes', 'marqueurs']
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Tools\UserLogs.py", line 13, in add
+    UserAccessSimple.info(log)
+NameError: global name 'log' is not defined
+[23/Mar/2016 10:05:50] WARNING [django.request:182] Not Found: /table/phenotype/Unmet Renal Needs (uACR)
+[23/Mar/2016 10:11:51] ERROR [django.request:284] Internal Server Error: /manhattan/phenotype/All cause death/1892/750/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\bokeh_GOAT\views.py", line 44, in manhattan
+    data, phenotype = getManhattanData(type, value)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\bokeh_GOAT\views.py", line 63, in getManhattanData
+    significantPhenotypes = getPhenotypes.getSignigicantPhenotypes(type, value)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Tools\getPhenotypes.py", line 9, in getSignigicantPhenotypes
+    UserLogs.add(
+NameError: global name 'UserLogs' is not defined
+[23/Mar/2016 10:11:54] ERROR [django.request:284] Internal Server Error: /table/phenotype/Unmet Renal Needs (uACR)/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 51, in table
+    significantPhenotypes = getPhenotypes.getSignigicantPhenotypes(type, value)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Tools\getPhenotypes.py", line 9, in getSignigicantPhenotypes
+    UserLogs.add(
+NameError: global name 'UserLogs' is not defined
+[23/Mar/2016 10:12:11] ERROR [django.request:284] Internal Server Error: /areaSelection/1/5000000/All cause death/1892/750
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\AreaSelection\views.py", line 257, in areaSelection
+    snps = getAreaSelectionData(position_min, position_max, chromosome, phenotype)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\AreaSelection\views.py", line 34, in getAreaSelectionData
+    UserLogs.add(
+NameError: global name 'UserLogs' is not defined
+[23/Mar/2016 10:13:24] ERROR [django.request:284] Internal Server Error: /areaSelection/1/5000000/All cause death/1892/750
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\AreaSelection\views.py", line 257, in areaSelection
+    
+  File "D:\Workspace_Python\GOAT_V1\GOAT\AreaSelection\views.py", line 34, in getAreaSelectionData
+    snps = connect.fetchData(sqlQuery)
+NameError: global name 'UserLogs' is not defined
+[23/Mar/2016 10:33:22] ERROR [django.request:284] Internal Server Error: /table/phenotype/Unmet Renal Needs (uACR)/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 51, in table
+    significantPhenotypes = getPhenotypes.getSignigicantPhenotypes(type, value)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Tools\getPhenotypes.py", line 9, in getSignigicantPhenotypes
+    UserLogs.add(
+NameError: global name 'UserLogs' is not defined
+[23/Mar/2016 10:53:47] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 10:53:47] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 10:53:47] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 10:53:47] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 12:34:39] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 12:34:39] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 12:34:39] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 12:34:39] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 12:38:50] WARNING [django.request:103] Forbidden (CSRF cookie not set.): /login
+[23/Mar/2016 12:43:00] WARNING [django.request:182] Not Found: /table/gene/RYR1
+[23/Mar/2016 12:43:00] ERROR [django.request:284] Internal Server Error: /table/gene/RYR1/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 67, in table
+    significantPhenotypes = getPhenotypes.getSignigicantPhenotypes(type, value)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Tools\getPhenotypes.py", line 9, in getSignigicantPhenotypes
+    UserLogs.add(
+NameError: global name 'UserLogs' is not defined
+[23/Mar/2016 12:43:37] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 12:43:37] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 12:43:37] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 12:43:37] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 12:43:46] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 12:43:46] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 12:43:46] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 12:43:46] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 12:43:51] ERROR [django.request:284] Internal Server Error: /table/gene/RYR1/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 67, in table
+    significantPhenotypes = getPhenotypes.getSignigicantPhenotypes(type, value)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Tools\getPhenotypes.py", line 9, in getSignigicantPhenotypes
+    UserLogs.add(
+NameError: global name 'UserLogs' is not defined
+[23/Mar/2016 12:44:08] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 12:44:08] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 12:44:08] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 12:44:08] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 12:44:14] WARNING [django.request:182] Not Found: /table/gene/SPOCK3
+[23/Mar/2016 12:44:14] ERROR [django.request:284] Internal Server Error: /table/gene/SPOCK3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 67, in table
+    significantPhenotypes = getPhenotypes.getSignigicantPhenotypes(type, value)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Tools\getPhenotypes.py", line 9, in getSignigicantPhenotypes
+    UserLogs.add(
+NameError: global name 'UserLogs' is not defined
+[23/Mar/2016 12:45:39] WARNING [django.request:182] Not Found: /manhattan/gene/spock3/1892/750
+[23/Mar/2016 12:45:39] ERROR [django.request:284] Internal Server Error: /manhattan/gene/spock3/1892/750/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\bokeh_GOAT\views.py", line 44, in manhattan
+    data, phenotype = getManhattanData(type, value)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\bokeh_GOAT\views.py", line 63, in getManhattanData
+    significantPhenotypes = getPhenotypes.getSignigicantPhenotypes(type, value)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Tools\getPhenotypes.py", line 9, in getSignigicantPhenotypes
+    UserLogs.add(
+NameError: global name 'UserLogs' is not defined
+[23/Mar/2016 12:45:41] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 12:45:41] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 12:45:42] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 12:45:42] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 12:46:37] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 12:46:37] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 12:46:37] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 12:46:37] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 12:46:38] ERROR [django.request:284] Internal Server Error: /table/gene/RYR1/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 67, in table
+    significantPhenotypes = getPhenotypes.getSignigicantPhenotypes(type, value)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Tools\getPhenotypes.py", line 9, in getSignigicantPhenotypes
+    UserLogs.add(
+NameError: global name 'UserLogs' is not defined
+[23/Mar/2016 12:46:47] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 12:46:47] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 12:46:47] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 12:46:48] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 12:46:52] ERROR [django.request:284] Internal Server Error: /table/phenotype/All cause death/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 67, in table
+    significantPhenotypes = getPhenotypes.getSignigicantPhenotypes(type, value)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Tools\getPhenotypes.py", line 9, in getSignigicantPhenotypes
+    UserLogs.add(
+NameError: global name 'UserLogs' is not defined
+[23/Mar/2016 12:48:20] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 12:48:20] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 12:48:20] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 12:48:20] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 12:48:30] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 12:48:30] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 12:48:30] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 12:48:30] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 12:48:50] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 12:48:50] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 12:48:50] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 12:48:51] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 12:49:59] WARNING [django.request:182] Not Found: /table/gene/spock3
+[23/Mar/2016 13:03:02] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 13:03:02] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 13:03:02] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 13:03:02] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 13:05:36] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 13:05:36] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 13:05:36] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 13:05:37] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 13:07:00] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 13:07:00] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 13:07:00] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 13:07:00] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 13:08:21] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 13:08:21] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 13:08:21] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 13:08:21] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 13:09:27] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 13:09:27] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 13:09:27] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 13:09:27] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 13:11:03] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 13:11:03] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 13:11:03] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 13:11:03] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 13:11:26] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 13:11:26] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 13:11:26] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 13:11:26] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 13:12:06] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 13:12:06] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 13:12:06] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 13:12:07] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 13:12:53] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 13:12:53] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 13:12:53] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 13:12:53] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 13:14:00] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 13:14:00] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 13:14:00] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 13:14:01] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 13:15:59] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 13:15:59] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 13:15:59] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 13:15:59] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 13:16:18] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 13:16:18] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 13:16:18] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 13:16:18] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 13:17:22] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 13:17:22] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 13:17:22] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 13:17:22] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 13:17:23] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 13:17:23] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 13:17:23] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 13:17:23] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 13:17:57] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 13:17:57] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 13:17:57] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 13:17:57] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 13:18:27] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 13:18:27] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 13:18:27] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 13:18:27] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 13:19:33] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 13:19:33] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 13:19:33] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 13:19:33] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 13:20:28] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 13:20:28] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 13:20:28] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 13:20:28] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 13:21:45] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 13:21:45] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 13:21:45] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 13:21:45] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 13:22:29] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 13:22:29] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 13:22:29] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 13:22:30] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 13:23:25] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 13:23:25] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 13:23:25] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 13:23:25] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 13:31:53] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 13:31:53] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 13:31:53] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 13:31:53] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 13:32:24] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 13:32:24] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 13:32:24] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 13:32:24] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 13:33:08] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 13:33:08] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 13:33:08] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 13:33:08] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 13:35:35] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 13:35:35] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 13:35:35] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 13:35:35] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 13:53:19] WARNING [django.request:182] Not Found: /manhattan/gene/ryr1/1892/750
+[23/Mar/2016 13:53:19] ERROR [django.request:284] Internal Server Error: /manhattan/gene/ryr1/1892/750/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\bokeh_GOAT\views.py", line 44, in manhattan
+    data, phenotype = getManhattanData(type, value)
+ValueError: too many values to unpack
+[23/Mar/2016 13:56:52] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 13:56:52] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 13:56:52] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 13:56:52] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 13:56:53] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 13:56:53] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 13:56:53] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 13:56:53] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 13:58:01] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 13:58:01] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 13:58:01] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 13:58:01] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:00:13] WARNING [django.request:182] Not Found: /table/gene/ryr1
+[23/Mar/2016 14:00:20] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:00:20] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:00:20] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:00:20] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:01:26] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:01:26] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:01:26] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:01:27] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:02:25] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:02:25] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:02:25] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:02:25] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:05:25] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:05:25] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:05:25] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:05:25] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:05:38] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:05:38] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:05:38] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:05:38] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:05:44] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:05:44] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:05:44] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:05:44] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:06:51] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:06:51] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:06:51] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:06:51] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:08:13] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:08:13] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:08:13] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:08:13] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:08:14] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:08:14] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:08:14] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:08:14] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:08:20] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:08:20] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:08:20] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:08:20] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:11:11] WARNING [django.request:182] Not Found: /areaSelection/undefined/undefined/undefined/1892/750
+[23/Mar/2016 14:11:13] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:11:13] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:11:13] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:11:13] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:11:39] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:11:39] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:11:39] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:11:39] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:14:27] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:14:27] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:14:27] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:14:27] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:14:29] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:14:29] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:14:29] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:14:29] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:16:17] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:16:17] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:16:17] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:16:18] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:18:03] WARNING [django.request:182] Not Found: /table/gene/zf sgf ez
+[23/Mar/2016 14:18:22] WARNING [django.request:182] Not Found: /table/gene/rs1
+[23/Mar/2016 14:21:01] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:21:01] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:21:01] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:21:01] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:21:02] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:21:02] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:21:02] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:21:02] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:21:10] WARNING [django.request:182] Not Found: /table/gene/rsé&e zf
+[23/Mar/2016 14:21:14] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:21:14] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:21:14] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:21:14] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:21:18] WARNING [django.request:182] Not Found: /table/gene/sdfdsf
+[23/Mar/2016 14:22:02] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:22:02] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:22:02] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:22:02] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:22:18] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:22:18] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:22:18] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:22:18] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:22:22] WARNING [django.request:182] Not Found: /table/gene/rsfgfd
+[23/Mar/2016 14:22:55] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:22:55] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:22:55] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:22:55] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:22:59] WARNING [django.request:182] Not Found: /table/gene/rsdfgfd
+[23/Mar/2016 14:24:40] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:24:40] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:24:40] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:24:40] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:24:53] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:24:53] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:24:53] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:24:54] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:25:10] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:25:10] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:25:10] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:25:10] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:25:23] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:25:23] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:25:23] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:25:23] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:25:33] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:25:33] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:25:33] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:25:33] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:31:20] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:31:20] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:31:20] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:31:20] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:31:26] WARNING [django.request:182] Not Found: /table/gene/rs465
+[23/Mar/2016 14:31:50] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:31:50] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:31:50] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:31:50] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:31:55] WARNING [django.request:182] Not Found: /table/gene/dgjhfdjkgfdg
+[23/Mar/2016 14:32:32] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:32:32] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:32:32] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:32:32] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:32:36] WARNING [django.request:182] Not Found: /table/gene/dsfd
+[23/Mar/2016 14:32:48] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:32:48] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:32:48] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:32:48] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:34:25] WARNING [django.request:182] Not Found: /table/gene/mldgjfkhgf
+[23/Mar/2016 14:35:57] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:35:57] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:35:57] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:35:57] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:36:02] WARNING [django.request:182] Not Found: /table/gene/sgsf
+[23/Mar/2016 14:36:19] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:36:19] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:36:19] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:36:19] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:36:23] WARNING [django.request:182] Not Found: /table/gene/rsdfsf
+[23/Mar/2016 14:37:38] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:37:38] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:37:38] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:37:38] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:37:42] WARNING [django.request:182] Not Found: /table/gene/eqsdd
+[23/Mar/2016 14:37:55] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:37:55] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:37:55] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:37:55] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:37:58] WARNING [django.request:182] Not Found: /table/gene/dfer
+[23/Mar/2016 14:38:20] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:38:20] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:38:20] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:38:20] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:38:23] WARNING [django.request:182] Not Found: /table/gene/zrsr
+[23/Mar/2016 14:38:55] WARNING [django.request:182] Not Found: /table/gene/rsdssfdsfs
+[23/Mar/2016 14:46:23] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:46:23] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:46:23] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:46:23] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:46:32] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:46:32] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:46:32] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:46:32] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:46:41] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:46:41] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:46:41] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:46:41] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:46:47] WARNING [django.request:182] Not Found: /table/gene/spockevdsf
+[23/Mar/2016 14:47:56] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:47:56] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:47:56] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:47:56] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:48:24] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:48:24] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:48:24] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:48:24] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:49:46] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:49:46] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:49:46] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:49:46] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:49:53] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:49:53] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:49:53] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:49:53] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:50:47] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:50:47] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:50:47] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:50:48] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:51:00] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:51:00] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:51:00] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:51:00] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:51:29] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:51:29] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:51:29] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:51:29] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:55:17] ERROR [django.request:284] Internal Server Error: /areaSelection/1/500156/efrfez/1892/750
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\AreaSelection\views.py", line 262, in areaSelection
+    graphScript, div = generateAreaSelection(snps, int(userWidth), int(userHeight), position_min, position_max)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\AreaSelection\views.py", line 99, in generateAreaSelection
+    snps["log10"] = -numpy.log10(snps.pvalue_assoc)                     #transformation
+AttributeError: log10
+[23/Mar/2016 14:56:09] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:56:09] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:56:09] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:56:09] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:56:27] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:56:27] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:56:27] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:56:27] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:56:33] ERROR [django.request:284] Internal Server Error: /areaSelection/1/6546565/dfgfdgfdg/1875/750
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\AreaSelection\views.py", line 262, in areaSelection
+    graphScript, div = generateAreaSelection(snps, int(userWidth), int(userHeight), position_min, position_max)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\AreaSelection\views.py", line 99, in generateAreaSelection
+    snps["log10"] = -numpy.log10(snps.pvalue_assoc)                     #transformation
+AttributeError: log10
+[23/Mar/2016 14:56:44] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:56:44] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:56:44] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:56:44] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:57:49] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:57:49] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:57:49] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:57:49] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:59:10] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 14:59:10] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 14:59:10] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 14:59:10] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 14:59:25] WARNING [django.request:182] Not Found: /manhattan/gene/efgdfg/1892/750
+[23/Mar/2016 14:59:25] ERROR [django.request:284] Internal Server Error: /manhattan/gene/efgdfg/1892/750/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\bokeh_GOAT\views.py", line 44, in manhattan
+    data, phenotype = getManhattanData(type, value)
+ValueError: too many values to unpack
+[23/Mar/2016 15:00:09] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[23/Mar/2016 15:00:09] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[23/Mar/2016 15:00:09] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[23/Mar/2016 15:00:09] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[23/Mar/2016 15:00:47] WARNING [django.request:182] Not Found: /manhattan/gene/fdhryeeg df/1892/750
+[23/Mar/2016 15:00:47] ERROR [django.request:284] Internal Server Error: /manhattan/gene/fdhryeeg df/1892/750/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\bokeh_GOAT\views.py", line 44, in manhattan
+    data, phenotype = getManhattanData(type, value)
+ValueError: too many values to unpack
+[23/Mar/2016 15:00:52] ERROR [django.request:284] Internal Server Error: /manhattan/gene/ryr1/1892/750/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\bokeh_GOAT\views.py", line 44, in manhattan
+    data, phenotype = getManhattanData(type, value)
+ValueError: too many values to unpack
+[23/Mar/2016 15:00:56] WARNING [django.request:182] Not Found: /manhattan/gene/spock3/1892/750
+[23/Mar/2016 15:01:34] WARNING [django.request:182] Not Found: /table/gene/slc1b1
+[23/Mar/2016 15:01:44] WARNING [django.request:182] Not Found: /table/gene/prox1
+[23/Mar/2016 15:03:29] WARNING [django.request:182] Not Found: /table/gene/prox-1
+[23/Mar/2016 15:05:31] WARNING [django.request:182] Not Found: /table/gene/prox
+[23/Mar/2016 15:05:53] WARNING [django.request:182] Not Found: /table/gene/snc9
+[23/Mar/2016 15:06:29] WARNING [django.request:182] Not Found: /table/gene/scn9a
+[23/Mar/2016 15:07:08] WARNING [django.request:182] Not Found: /table/gene/SCN9A
+[23/Mar/2016 15:07:40] WARNING [django.request:182] Not Found: /table/rsID/rs16943389
+[23/Mar/2016 15:09:48] WARNING [django.request:182] Not Found: /table/rsID/rs72881379
+[23/Mar/2016 15:10:10] WARNING [django.request:182] Not Found: /table/rsID/rs12714314
+[23/Mar/2016 15:14:58] WARNING [django.request:182] Not Found: /table/gene/k1f17
+[23/Mar/2016 15:15:15] WARNING [django.request:182] Not Found: /table/gene/DDOST
+[23/Mar/2016 15:19:51] WARNING [django.request:182] Not Found: /table/gene/PROX1-ASI
+[23/Mar/2016 15:24:18] WARNING [django.request:182] Not Found: /table/gene/KIF17
+[23/Mar/2016 15:25:57] WARNING [django.request:182] Not Found: /table/gene/LOC730102
+[23/Mar/2016 15:26:31] WARNING [django.request:182] Not Found: /table/gene/OR13G1
+[23/Mar/2016 15:27:14] WARNING [django.request:182] Not Found: /table/gene/or13g1
+[23/Mar/2016 15:27:26] WARNING [django.request:182] Not Found: /table/gene/hivep3
+[23/Mar/2016 15:28:13] WARNING [django.request:182] Not Found: /table/gene/TM2D1
+[01/Apr/2016 11:14:58] WARNING [django.request:182] Not Found: /favicon.ico
+[01/Apr/2016 11:15:00] WARNING [django.request:182] Not Found: /phenotypes
+[01/Apr/2016 11:15:05] WARNING [django.request:182] Not Found: /table/phenotype/All cause death
+[01/Apr/2016 11:25:00] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 11:25:00] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 11:25:00] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 11:25:00] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 11:37:13] WARNING [django.request:182] Not Found: /table/gene/DOK5
+[01/Apr/2016 11:56:24] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 11:56:24] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 11:56:24] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 11:56:24] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 11:56:37] ERROR [django.request:284] Internal Server Error: /genes/dok
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: autoCompleteGenes() got multiple values for keyword argument 'text'
+[01/Apr/2016 11:57:06] WARNING [django.request:182] Not Found: /genes/dok
+[01/Apr/2016 11:57:06] ERROR [django.request:284] Internal Server Error: /genes/dok/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: autoCompleteGenes() got multiple values for keyword argument 'text'
+[01/Apr/2016 11:57:49] ERROR [django.request:284] Internal Server Error: /genes/dok/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: autoCompleteGenes() got multiple values for keyword argument 'text'
+[01/Apr/2016 11:58:10] ERROR [django.request:284] Internal Server Error: /genes/dok/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: autoCompleteGenes() got multiple values for keyword argument 'text'
+[01/Apr/2016 11:58:39] WARNING [django.request:182] Not Found: /genes
+[01/Apr/2016 11:58:39] ERROR [django.request:284] Internal Server Error: /genes/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\autocomplete\views.py", line 15, in autoCompleteGenes
+    sqlQuery = "select symbol from genes where symbol like '%"+text+"%';"
+TypeError: cannot concatenate 'str' and 'WSGIRequest' objects
+[01/Apr/2016 11:58:52] WARNING [django.request:182] Not Found: /genes/
+[01/Apr/2016 11:58:54] ERROR [django.request:284] Internal Server Error: /genes/dok/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: autoCompleteGenes() got multiple values for keyword argument 'text'
+[01/Apr/2016 12:13:28] ERROR [django.request:284] Internal Server Error: /genes/dok/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: autoCompleteGenes() got multiple values for keyword argument 'text'
+[01/Apr/2016 12:13:53] ERROR [django.request:284] Internal Server Error: /genes/dok/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: autoCompleteGenes() got multiple values for keyword argument 'text'
+[01/Apr/2016 12:14:40] ERROR [django.request:284] Internal Server Error: /genes/dok/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\autocomplete\views.py", line 25, in autoCompleteGenes
+    return HttpResponse(response)
+NameError: global name 'response' is not defined
+[01/Apr/2016 12:14:55] ERROR [django.request:284] Internal Server Error: /genes/dok/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\autocomplete\views.py", line 26, in autoCompleteGenes
+    return HttpResponse(response)
+NameError: global name 'response' is not defined
+[01/Apr/2016 13:40:29] ERROR [django.request:284] Internal Server Error: /genes/dok/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\autocomplete\views.py", line 26, in autoCompleteGenes
+    return HttpResponse(response)
+NameError: global name 'response' is not defined
+[01/Apr/2016 13:41:46] ERROR [django.request:284] Internal Server Error: /genes/dok/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\autocomplete\views.py", line 27, in autoCompleteGenes
+    return HttpResponse(response)
+NameError: global name 'response' is not defined
+[01/Apr/2016 13:43:47] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 13:43:47] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 13:43:47] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 13:43:47] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 13:50:43] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 13:50:43] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 13:50:43] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 13:50:43] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 13:50:44] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 13:50:44] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 13:50:44] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 13:50:44] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 13:52:40] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 13:52:40] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 13:52:40] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 13:52:41] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 13:52:56] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 13:52:56] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 13:52:56] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 13:52:56] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 13:53:28] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 13:53:28] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 13:53:28] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 13:53:28] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 13:54:34] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 13:54:34] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 13:54:34] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 13:54:34] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 13:56:43] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 13:56:43] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 13:56:43] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 13:56:43] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 13:56:50] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 13:56:50] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 13:56:50] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 13:56:50] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 13:57:17] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 13:57:17] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 13:57:17] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 13:57:17] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 13:59:02] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 13:59:02] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 13:59:02] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 13:59:02] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 13:59:32] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 13:59:32] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 13:59:32] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 13:59:32] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 14:00:04] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 14:00:04] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 14:00:04] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 14:00:04] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 14:00:06] WARNING [django.request:182] Not Found: /genes/
+[01/Apr/2016 14:00:07] WARNING [django.request:182] Not Found: /genes/d
+[01/Apr/2016 14:00:07] WARNING [django.request:182] Not Found: /genes/do
+[01/Apr/2016 14:00:20] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 14:00:20] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 14:00:20] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 14:00:20] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 14:00:24] WARNING [django.request:182] Not Found: /genes/
+[01/Apr/2016 14:01:32] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 14:01:32] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 14:01:32] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 14:01:32] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 14:01:38] WARNING [django.request:182] Not Found: /genes/
+[01/Apr/2016 14:01:47] WARNING [django.request:182] Not Found: /genes/
+[01/Apr/2016 14:02:27] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 14:02:27] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 14:02:27] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 14:02:28] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 14:04:22] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 14:04:22] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 14:04:22] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 14:04:22] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 14:04:24] WARNING [django.request:182] Not Found: /genes/
+[01/Apr/2016 14:07:43] WARNING [django.request:182] Not Found: /genes/dok 
+[01/Apr/2016 14:08:05] WARNING [django.request:182] Not Found: /genes/
+[01/Apr/2016 14:08:10] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 14:08:10] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 14:08:10] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 14:08:10] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 14:09:03] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 14:09:03] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 14:09:03] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 14:09:04] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 14:09:09] WARNING [django.request:182] Not Found: /genes/
+[01/Apr/2016 14:10:58] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 14:10:58] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 14:10:58] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 14:10:58] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 14:11:19] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 14:11:19] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 14:11:19] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 14:11:19] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 14:11:35] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 14:11:35] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 14:11:35] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 14:11:35] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 14:11:58] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 14:11:58] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 14:11:58] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 14:11:58] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 14:12:10] WARNING [django.request:182] Not Found: /genes/sp
+[01/Apr/2016 14:12:10] WARNING [django.request:182] Not Found: /genes/spo
+[01/Apr/2016 14:12:10] WARNING [django.request:182] Not Found: /genes/spoc
+[01/Apr/2016 14:12:10] WARNING [django.request:182] Not Found: /genes/spock
+[01/Apr/2016 14:12:10] WARNING [django.request:182] Not Found: /genes/spock3
+[01/Apr/2016 14:12:17] WARNING [django.request:182] Not Found: /genes/spock2
+[01/Apr/2016 14:12:18] WARNING [django.request:182] Not Found: /table/gene/spock2
+[01/Apr/2016 14:12:29] WARNING [django.request:182] Not Found: /genes/spock1
+[01/Apr/2016 14:12:30] WARNING [django.request:182] Not Found: /table/gene/spock1
+[01/Apr/2016 14:18:57] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 14:18:57] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 14:18:57] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 14:18:57] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 14:18:58] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 14:18:58] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 14:18:58] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 14:18:58] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 14:19:06] WARNING [django.request:182] Not Found: /genes/dp
+[01/Apr/2016 14:25:41] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 14:25:41] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 14:25:41] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 14:25:41] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 14:26:05] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 14:26:05] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 14:26:05] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 14:26:05] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 14:33:05] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 14:33:05] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 14:33:05] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 14:33:05] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 14:33:05] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 14:33:20] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 14:33:20] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 14:33:20] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 14:33:20] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 14:33:20] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 14:33:36] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 14:33:36] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 14:33:36] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 14:33:36] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 14:33:37] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 14:33:43] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 14:33:43] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 14:33:43] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 14:33:43] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 14:33:43] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 14:33:58] WARNING [django.request:182] Not Found: /genes/doki
+[01/Apr/2016 14:35:04] WARNING [django.request:182] Not Found: /genes/dok1
+[01/Apr/2016 14:35:43] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 14:38:32] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 14:38:46] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 14:38:46] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 14:38:46] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 14:38:46] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 14:38:54] WARNING [django.request:182] Not Found: /genes/spok
+[01/Apr/2016 14:39:11] WARNING [django.request:182] Not Found: /genes/zee
+[01/Apr/2016 14:39:12] WARNING [django.request:182] Not Found: /genes/zeer
+[01/Apr/2016 14:39:12] WARNING [django.request:182] Not Found: /genes/zeerr
+[01/Apr/2016 14:39:20] WARNING [django.request:182] Not Found: /genes/qoi
+[01/Apr/2016 14:39:22] WARNING [django.request:182] Not Found: /genes/cok
+[01/Apr/2016 14:39:24] WARNING [django.request:182] Not Found: /genes/lil
+[01/Apr/2016 14:39:26] WARNING [django.request:182] Not Found: /genes/lilo
+[01/Apr/2016 14:39:26] WARNING [django.request:182] Not Found: /genes/lili
+[01/Apr/2016 14:39:28] WARNING [django.request:182] Not Found: /genes/lilr
+[01/Apr/2016 14:39:29] WARNING [django.request:182] Not Found: /genes/lilra
+[01/Apr/2016 14:39:31] WARNING [django.request:182] Not Found: /genes/lilrb
+[01/Apr/2016 14:39:53] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 14:40:01] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 14:40:01] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 14:40:01] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 14:40:01] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 14:40:06] WARNING [django.request:182] Not Found: /genes/spo 
+[01/Apr/2016 14:40:43] WARNING [django.request:182] Not Found: /genes/spocd
+[01/Apr/2016 14:40:47] WARNING [django.request:182] Not Found: /genes/spor
+[01/Apr/2016 14:40:59] WARNING [django.request:182] Not Found: /genes/sl
+[01/Apr/2016 14:40:59] WARNING [django.request:182] Not Found: /genes/slc
+[01/Apr/2016 14:41:01] WARNING [django.request:182] Not Found: /genes/slc*
+[01/Apr/2016 14:41:04] WARNING [django.request:182] Not Found: /genes/ge
+[01/Apr/2016 14:41:04] WARNING [django.request:182] Not Found: /genes/gen
+[01/Apr/2016 14:41:04] WARNING [django.request:182] Not Found: /genes/geni
+[01/Apr/2016 14:41:04] WARNING [django.request:182] Not Found: /genes/genia
+[01/Apr/2016 14:41:04] WARNING [django.request:182] Not Found: /genes/genial
+[01/Apr/2016 14:42:57] WARNING [django.request:182] Not Found: /genes/ab
+[01/Apr/2016 14:42:58] WARNING [django.request:182] Not Found: /genes/abc
+[01/Apr/2016 14:42:59] WARNING [django.request:182] Not Found: /genes/abcd
+[01/Apr/2016 14:43:00] WARNING [django.request:182] Not Found: /genes/abcde
+[01/Apr/2016 14:43:09] WARNING [django.request:182] Not Found: /genes/as
+[01/Apr/2016 14:44:25] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 14:44:25] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 14:44:25] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 14:44:25] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 14:44:25] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 14:44:25] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 14:44:32] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 14:44:32] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 14:44:32] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 14:44:32] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 14:44:33] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 14:44:47] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 14:44:47] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 14:44:47] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 14:44:47] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 14:44:47] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 14:45:09] WARNING [django.request:182] Not Found: /genes/spod
+[01/Apr/2016 14:46:17] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 14:46:17] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 14:46:17] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 14:46:17] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 14:46:17] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 14:46:41] WARNING [django.request:182] Not Found: /genes/bl
+[01/Apr/2016 14:46:41] WARNING [django.request:182] Not Found: /genes/blo
+[01/Apr/2016 14:46:49] WARNING [django.request:182] Not Found: /genes/BLOC1S1
+[01/Apr/2016 14:46:51] WARNING [django.request:182] Not Found: /genes/BLOC1S1-RDH5
+[01/Apr/2016 14:46:53] WARNING [django.request:182] Not Found: /table/gene/BLOC1S1-RDH5
+[01/Apr/2016 14:46:57] WARNING [django.request:182] Not Found: /genes/SPOCK1
+[01/Apr/2016 14:46:59] WARNING [django.request:182] Not Found: /table/gene/SPOCK1
+[01/Apr/2016 14:48:00] WARNING [django.request:182] Not Found: /genes/Dok-2
+[01/Apr/2016 14:48:00] WARNING [django.request:182] Not Found: /table/gene/Dok-2
+[01/Apr/2016 14:48:02] WARNING [django.request:182] Not Found: /genes/Dok-
+[01/Apr/2016 14:48:02] WARNING [django.request:182] Not Found: /genes/Dok
+[01/Apr/2016 14:48:03] WARNING [django.request:182] Not Found: /genes/DOK2
+[01/Apr/2016 14:48:05] WARNING [django.request:182] Not Found: /table/gene/DOK2
+[01/Apr/2016 14:48:09] WARNING [django.request:182] Not Found: /genes/DOK
+[01/Apr/2016 14:48:10] WARNING [django.request:182] Not Found: /genes/DOK3
+[01/Apr/2016 14:48:11] WARNING [django.request:182] Not Found: /table/gene/DOK3
+[01/Apr/2016 14:48:14] WARNING [django.request:182] Not Found: /genes/DOK1
+[01/Apr/2016 14:48:14] WARNING [django.request:182] Not Found: /table/gene/DOK1
+[01/Apr/2016 14:48:17] WARNING [django.request:182] Not Found: /genes/DOK5
+[01/Apr/2016 14:50:34] WARNING [django.request:182] Not Found: /genes/spo 
+[01/Apr/2016 14:50:52] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 14:50:52] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 14:50:52] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 14:50:52] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 14:50:52] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 14:51:05] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 14:51:05] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 14:51:05] WARNING [django.request:182] Not Found: /favicon.ico
+[01/Apr/2016 14:51:05] WARNING [django.request:182] Not Found: /favicon.ico
+[01/Apr/2016 14:51:06] WARNING [django.request:182] Not Found: /phenotypes
+[01/Apr/2016 14:51:08] WARNING [django.request:182] Not Found: /genes/sp
+[01/Apr/2016 14:51:08] WARNING [django.request:182] Not Found: /genes/spo
+[01/Apr/2016 14:51:08] WARNING [django.request:182] Not Found: /genes/spoc
+[01/Apr/2016 14:51:08] WARNING [django.request:182] Not Found: /genes/spock
+[01/Apr/2016 14:51:15] WARNING [django.request:182] Not Found: /genes/do
+[01/Apr/2016 14:51:15] WARNING [django.request:182] Not Found: /genes/dok
+[01/Apr/2016 14:56:47] WARNING [django.request:182] Not Found: /genes/hd
+[01/Apr/2016 14:56:47] WARNING [django.request:182] Not Found: /genes/hdo
+[01/Apr/2016 14:56:53] WARNING [django.request:182] Not Found: /genes/hd-
+[01/Apr/2016 14:58:23] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 14:58:23] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 14:58:23] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 14:58:23] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 14:58:23] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 14:58:23] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:02:52] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:02:53] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 15:02:53] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 15:02:53] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 15:02:53] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 15:02:55] WARNING [django.request:182] Not Found: /autocomplete/genes/sp
+[01/Apr/2016 15:02:55] WARNING [django.request:182] Not Found: /autocomplete/genes/spo
+[01/Apr/2016 15:02:55] WARNING [django.request:182] Not Found: /autocomplete/genes/spoc
+[01/Apr/2016 15:02:55] WARNING [django.request:182] Not Found: /autocomplete/genes/spock
+[01/Apr/2016 15:05:51] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:05:59] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:06:04] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 15:06:04] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 15:06:04] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 15:06:04] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 15:06:16] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:06:16] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 15:06:16] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 15:06:16] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 15:06:17] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 15:06:19] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/al
+[01/Apr/2016 15:06:19] ERROR [django.request:284] Internal Server Error: /autocomplete/phenotypes/al/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\autocomplete\views.py", line 79, in AutoCompletePhenotypes
+    genes = genes.to_json(orient='records')
+UnboundLocalError: local variable 'genes' referenced before assignment
+[01/Apr/2016 15:06:19] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/all
+[01/Apr/2016 15:06:19] ERROR [django.request:284] Internal Server Error: /autocomplete/phenotypes/all/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\autocomplete\views.py", line 79, in AutoCompletePhenotypes
+    genes = genes.to_json(orient='records')
+UnboundLocalError: local variable 'genes' referenced before assignment
+[01/Apr/2016 15:06:54] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:06:55] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 15:06:55] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 15:06:55] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 15:06:55] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 15:06:58] WARNING [django.request:182] Not Found: /a/phenotypes/al
+[01/Apr/2016 15:06:58] ERROR [django.request:284] Internal Server Error: /a/phenotypes/al/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\autocomplete\views.py", line 79, in AutoCompletePhenotypes
+    genes = genes.to_json(orient='records')
+UnboundLocalError: local variable 'genes' referenced before assignment
+[01/Apr/2016 15:06:58] WARNING [django.request:182] Not Found: /a/phenotypes/all
+[01/Apr/2016 15:06:58] ERROR [django.request:284] Internal Server Error: /a/phenotypes/all/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\autocomplete\views.py", line 79, in AutoCompletePhenotypes
+    genes = genes.to_json(orient='records')
+UnboundLocalError: local variable 'genes' referenced before assignment
+[01/Apr/2016 15:07:22] ERROR [django.request:284] Internal Server Error: /a/phenotypes/al/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\autocomplete\views.py", line 79, in AutoCompletePhenotypes
+    genes = genes.to_json(orient='records')
+UnboundLocalError: local variable 'genes' referenced before assignment
+[01/Apr/2016 15:07:32] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:07:32] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 15:07:32] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 15:07:32] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 15:07:32] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 15:07:35] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/al/
+[01/Apr/2016 15:07:35] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/all/
+[01/Apr/2016 15:07:52] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:07:52] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 15:07:52] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 15:07:52] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 15:07:53] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 15:07:55] ERROR [django.request:284] Internal Server Error: /autocomplete/phenotypes/al/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\autocomplete\views.py", line 79, in AutoCompletePhenotypes
+    genes = genes.to_json(orient='records')
+UnboundLocalError: local variable 'genes' referenced before assignment
+[01/Apr/2016 15:07:55] ERROR [django.request:284] Internal Server Error: /autocomplete/phenotypes/all/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\autocomplete\views.py", line 79, in AutoCompletePhenotypes
+    genes = genes.to_json(orient='records')
+UnboundLocalError: local variable 'genes' referenced before assignment
+[01/Apr/2016 15:08:34] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:08:35] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 15:08:35] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 15:08:35] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 15:08:35] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 15:08:37] ERROR [django.request:284] Internal Server Error: /autocomplete/phenotypes/al/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\autocomplete\views.py", line 78, in AutoCompletePhenotypes
+    genes = genes.to_json(orient='records')
+UnboundLocalError: local variable 'genes' referenced before assignment
+[01/Apr/2016 15:08:37] ERROR [django.request:284] Internal Server Error: /autocomplete/phenotypes/all/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\autocomplete\views.py", line 78, in AutoCompletePhenotypes
+    genes = genes.to_json(orient='records')
+UnboundLocalError: local variable 'genes' referenced before assignment
+[01/Apr/2016 15:09:11] ERROR [django.request:284] Internal Server Error: /autocomplete/phenotypes/al/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\autocomplete\views.py", line 79, in AutoCompletePhenotypes
+    genes = genes.to_json(orient='records')
+UnboundLocalError: local variable 'genes' referenced before assignment
+[01/Apr/2016 15:10:31] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:10:32] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 15:10:32] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 15:10:32] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 15:10:32] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 15:11:29] WARNING [django.request:182] Not Found: /autocomplete/genes/al
+[01/Apr/2016 15:11:29] WARNING [django.request:182] Not Found: /autocomplete/genes/all
+[01/Apr/2016 15:12:25] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:12:25] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 15:12:25] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 15:12:25] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 15:12:25] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 15:12:31] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/al 
+[01/Apr/2016 15:12:45] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/un
+[01/Apr/2016 15:12:46] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/unm
+[01/Apr/2016 15:12:49] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/unme
+[01/Apr/2016 15:12:49] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/unmel
+[01/Apr/2016 15:12:50] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/unmet
+[01/Apr/2016 15:12:52] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/Re
+[01/Apr/2016 15:12:53] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/Reb
+[01/Apr/2016 15:12:53] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/Reba
+[01/Apr/2016 15:13:40] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:13:40] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:13:41] WARNING [django.request:182] Not Found: /favicon.ico
+[01/Apr/2016 15:13:41] WARNING [django.request:182] Not Found: /favicon.ico
+[01/Apr/2016 15:13:43] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/al
+[01/Apr/2016 15:13:46] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/all
+[01/Apr/2016 15:13:47] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/all 
+[01/Apr/2016 15:13:47] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/all c
+[01/Apr/2016 15:13:47] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/all ca
+[01/Apr/2016 15:13:47] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/all cau
+[01/Apr/2016 15:13:47] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/all caus
+[01/Apr/2016 15:13:47] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/all cause
+[01/Apr/2016 15:13:47] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/all cause 
+[01/Apr/2016 15:13:47] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/all cause d
+[01/Apr/2016 15:13:48] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/all cause de
+[01/Apr/2016 15:13:48] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/all cause dea
+[01/Apr/2016 15:13:48] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/all cause deat
+[01/Apr/2016 15:13:48] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/all cause death
+[01/Apr/2016 15:13:48] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/all cause deat
+[01/Apr/2016 15:13:48] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/all cause dea
+[01/Apr/2016 15:13:49] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/all cause de
+[01/Apr/2016 15:13:49] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/all cause d
+[01/Apr/2016 15:13:49] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/all cause 
+[01/Apr/2016 15:13:49] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/all cause
+[01/Apr/2016 15:13:49] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/all caus
+[01/Apr/2016 15:13:49] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/all cau
+[01/Apr/2016 15:13:49] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/all ca
+[01/Apr/2016 15:13:49] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/all c
+[01/Apr/2016 15:13:49] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/all 
+[01/Apr/2016 15:13:51] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/Unmet Renal Needs (uACR)
+[01/Apr/2016 15:13:52] WARNING [django.request:182] Not Found: /table/phenotype/Unmet Renal Needs (uACR)
+[01/Apr/2016 15:14:19] WARNING [django.request:182] Not Found: /autocomplete/genes/al
+[01/Apr/2016 15:14:21] WARNING [django.request:182] Not Found: /autocomplete/genes/sp
+[01/Apr/2016 15:14:21] WARNING [django.request:182] Not Found: /autocomplete/genes/spo
+[01/Apr/2016 15:18:33] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/ha
+[01/Apr/2016 15:19:26] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:19:26] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 15:19:26] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 15:19:26] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 15:19:26] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 15:19:37] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:19:37] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 15:19:37] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 15:19:37] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 15:19:37] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 15:29:42] WARNING [django.request:182] Not Found: /autocomplete/genes/SPOCK
+[01/Apr/2016 15:29:43] WARNING [django.request:182] Not Found: /autocomplete/genes/SPOCK1
+[01/Apr/2016 15:53:46] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:53:48] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 15:53:48] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 15:53:48] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 15:53:48] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 15:54:00] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:54:00] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 15:54:00] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 15:54:00] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 15:54:00] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 15:54:30] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:54:30] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 15:54:30] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 15:54:30] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 15:54:30] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 15:55:01] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:55:01] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 15:55:01] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 15:55:01] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 15:55:01] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 15:55:45] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:55:45] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 15:55:45] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 15:55:45] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 15:55:45] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 15:56:04] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:56:04] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 15:56:04] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 15:56:04] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 15:56:04] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 15:56:19] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:56:20] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 15:56:20] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 15:56:20] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 15:56:20] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 15:56:38] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:56:38] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 15:56:38] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 15:56:38] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 15:56:38] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 15:56:47] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:56:47] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 15:56:47] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 15:56:47] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 15:56:47] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 15:57:23] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:57:24] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 15:57:24] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 15:57:24] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 15:57:24] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 15:58:19] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:58:19] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 15:58:19] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 15:58:19] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 15:58:20] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 15:58:36] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:58:36] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 15:58:36] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 15:58:36] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 15:58:36] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 15:59:15] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:59:15] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 15:59:15] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 15:59:15] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 15:59:16] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 15:59:38] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 15:59:39] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 15:59:39] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 15:59:39] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 15:59:39] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 16:00:04] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 16:00:04] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 16:00:04] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 16:00:04] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 16:00:05] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 16:00:23] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 16:00:23] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 16:00:23] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 16:00:23] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 16:00:24] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 16:00:59] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 16:00:59] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 16:00:59] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 16:00:59] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 16:00:59] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 16:02:36] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 16:02:36] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 16:02:36] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 16:02:36] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 16:02:36] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 16:02:36] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 16:03:31] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 16:03:31] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 16:03:31] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 16:03:31] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 16:03:31] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 16:11:55] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[01/Apr/2016 16:11:55] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[01/Apr/2016 16:11:55] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[01/Apr/2016 16:11:55] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[01/Apr/2016 16:11:55] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[01/Apr/2016 16:17:10] WARNING [django.request:182] Not Found: /autocomplete/genes/do
+[01/Apr/2016 16:17:10] WARNING [django.request:182] Not Found: /autocomplete/genes/dok
+[01/Apr/2016 16:28:32] WARNING [django.request:182] Not Found: /autocomplete/genes/SPOc
+[01/Apr/2016 16:28:32] WARNING [django.request:182] Not Found: /autocomplete/genes/SPOck
+[01/Apr/2016 16:28:34] WARNING [django.request:182] Not Found: /autocomplete/genes/SPOCK3
+[01/Apr/2016 16:28:35] WARNING [django.request:182] Not Found: /manhattan/gene/SPOCK3/1892/750
+[01/Apr/2016 16:31:49] WARNING [django.request:182] Not Found: /table/gene/SPOCK3
+[04/Apr/2016 12:14:18] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[04/Apr/2016 12:14:19] WARNING [django.request:182] Not Found: /favicon.ico
+[04/Apr/2016 12:14:20] WARNING [django.request:182] Not Found: /phenotypes
+[04/Apr/2016 12:14:23] WARNING [django.request:182] Not Found: /autocomplete/genes/sp
+[04/Apr/2016 12:14:23] WARNING [django.request:182] Not Found: /autocomplete/genes/spo
+[04/Apr/2016 12:14:23] WARNING [django.request:182] Not Found: /autocomplete/genes/spoc
+[04/Apr/2016 12:14:23] WARNING [django.request:182] Not Found: /autocomplete/genes/spock
+[04/Apr/2016 12:14:25] WARNING [django.request:182] Not Found: /autocomplete/genes/do
+[04/Apr/2016 12:14:26] WARNING [django.request:182] Not Found: /autocomplete/genes/don
+[04/Apr/2016 12:14:29] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/al
+[04/Apr/2016 12:14:29] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/all
+[04/Apr/2016 12:15:03] WARNING [django.request:182] Not Found: /autocomplete/genes/SPOCK3
+[04/Apr/2016 12:15:04] WARNING [django.request:182] Not Found: /table/gene/SPOCK3
+[04/Apr/2016 12:16:25] ERROR [django.request:284] Internal Server Error: /login
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 39, in login
+    username = request.POST['userName']
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\utils\datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'userName'"
+[04/Apr/2016 12:25:40] WARNING [django.request:182] Not Found: /autocomplete/genes/spock3
+[04/Apr/2016 12:25:41] WARNING [django.request:182] Not Found: /table/gene/spock3
+[04/Apr/2016 12:31:51] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 12:31:51] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 12:31:51] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 12:31:51] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 12:32:20] WARNING [django.request:182] Not Found: /snpsForGene/spock3
+[04/Apr/2016 12:32:20] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: snpsForGene() got an unexpected keyword argument 'type'
+[04/Apr/2016 12:33:11] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: snpsForGene() got an unexpected keyword argument 'type'
+[04/Apr/2016 12:34:05] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: snpsForGene() got an unexpected keyword argument 'type'
+[04/Apr/2016 12:40:04] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 135, in snpsForGene
+    significantPhenotypes = getPhenotypes.getSignigicantPhenotypes(type, value)
+NameError: global name 'value' is not defined
+[04/Apr/2016 12:40:30] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 135, in snpsForGene
+    significantPhenotypes = getPhenotypes.getSignigicantPhenotypes(type, value)
+NameError: global name 'value' is not defined
+[04/Apr/2016 12:40:45] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 135, in snpsForGene
+    significantPhenotypes = getPhenotypes.getSignigicantPhenotypes(type, value)
+NameError: global name 'value' is not defined
+[04/Apr/2016 12:41:08] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 135, in snpsForGene
+    significantPhenotypes = getPhenotypes.getSignigicantPhenotypes(type, value)
+NameError: global name 'value' is not defined
+[04/Apr/2016 12:41:48] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 135, in snpsForGene
+    significantPhenotypes = getPhenotypes.getSignigicantPhenotypes('gene', value)
+NameError: global name 'value' is not defined
+[04/Apr/2016 12:41:52] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 135, in snpsForGene
+    significantPhenotypes = getPhenotypes.getSignigicantPhenotypes('gene', value)
+NameError: global name 'value' is not defined
+[04/Apr/2016 12:42:00] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 135, in snpsForGene
+    significantPhenotypes = getPhenotypes.getSignigicantPhenotypes('gene', value)
+NameError: global name 'value' is not defined
+[04/Apr/2016 12:42:17] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 135, in snpsForGene
+    significantPhenotypes = getPhenotypes.getSignigicantPhenotypes('gene', value)
+NameError: global name 'value' is not defined
+[04/Apr/2016 12:42:47] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 135, in snpsForGene
+    significantPhenotypes = getPhenotypes.getSignigicantPhenotypes("gene", value)
+NameError: global name 'value' is not defined
+[04/Apr/2016 12:43:06] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 135, in snpsForGene
+    significantPhenotypes = getPhenotypes.getSignigicantPhenotypes("gene", value)
+NameError: global name 'value' is not defined
+[04/Apr/2016 12:52:09] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 127, in snpsForGene
+    significantPhenotypes = getPhenotypes.getSignigicantPhenotypes("gene", value)
+NameError: global name 'value' is not defined
+[04/Apr/2016 12:52:47] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 166, in snpsForGene
+    dataframe.loc[gene]
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1227, in __getitem__
+    return self._getitem_axis(key, axis=0)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1371, in _getitem_axis
+    self._has_valid_type(key, axis)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1333, in _has_valid_type
+    error()
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1320, in error
+    (key, self.obj._get_axis_name(axis)))
+KeyError: u'the label [spock3] is not in the [index]'
+[04/Apr/2016 12:53:22] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 165, in snpsForGene
+    dataframe.loc[gene]
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1227, in __getitem__
+    return self._getitem_axis(key, axis=0)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1371, in _getitem_axis
+    self._has_valid_type(key, axis)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1333, in _has_valid_type
+    error()
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1320, in error
+    (key, self.obj._get_axis_name(axis)))
+KeyError: u'the label [spock3] is not in the [index]'
+[04/Apr/2016 12:53:51] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 165, in snpsForGene
+    dataframe.loc[gene]
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1227, in __getitem__
+    return self._getitem_axis(key, axis=0)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1371, in _getitem_axis
+    self._has_valid_type(key, axis)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1333, in _has_valid_type
+    error()
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1320, in error
+    (key, self.obj._get_axis_name(axis)))
+KeyError: u'the label [spock3] is not in the [index]'
+[04/Apr/2016 12:54:57] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 165, in snpsForGene
+    dataframe.loc["spock3"]
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1227, in __getitem__
+    return self._getitem_axis(key, axis=0)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1371, in _getitem_axis
+    self._has_valid_type(key, axis)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1333, in _has_valid_type
+    error()
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1320, in error
+    (key, self.obj._get_axis_name(axis)))
+KeyError: 'the label [spock3] is not in the [index]'
+[04/Apr/2016 12:55:17] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 165, in snpsForGene
+    dataframe.loc["spock3"]
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1227, in __getitem__
+    return self._getitem_axis(key, axis=0)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1371, in _getitem_axis
+    self._has_valid_type(key, axis)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1333, in _has_valid_type
+    error()
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1320, in error
+    (key, self.obj._get_axis_name(axis)))
+KeyError: 'the label [spock3] is not in the [index]'
+[04/Apr/2016 12:55:49] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 165, in snpsForGene
+    dataframe.loc['spock3']
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1227, in __getitem__
+    return self._getitem_axis(key, axis=0)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1371, in _getitem_axis
+    self._has_valid_type(key, axis)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1333, in _has_valid_type
+    error()
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1320, in error
+    (key, self.obj._get_axis_name(axis)))
+KeyError: 'the label [spock3] is not in the [index]'
+[04/Apr/2016 12:56:20] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 165, in snpsForGene
+    dataframe.loc['spock3']
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1227, in __getitem__
+    return self._getitem_axis(key, axis=0)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1371, in _getitem_axis
+    self._has_valid_type(key, axis)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1333, in _has_valid_type
+    error()
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1320, in error
+    (key, self.obj._get_axis_name(axis)))
+KeyError: 'the label [spock3] is not in the [index]'
+[04/Apr/2016 12:57:32] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 165, in snpsForGene
+    dataframe.loc['SPOCK3']
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1227, in __getitem__
+    return self._getitem_axis(key, axis=0)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1371, in _getitem_axis
+    self._has_valid_type(key, axis)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1333, in _has_valid_type
+    error()
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1320, in error
+    (key, self.obj._get_axis_name(axis)))
+KeyError: 'the label [SPOCK3] is not in the [index]'
+[04/Apr/2016 13:03:10] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 165, in snpsForGene
+    dataframe.loc['SPOCK3']
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1227, in __getitem__
+    return self._getitem_axis(key, axis=0)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1371, in _getitem_axis
+    self._has_valid_type(key, axis)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1333, in _has_valid_type
+    error()
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\pandas\core\indexing.py", line 1320, in error
+    (key, self.obj._get_axis_name(axis)))
+KeyError: 'the label [SPOCK3] is not in the [index]'
+[04/Apr/2016 13:08:33] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 169, in snpsForGene
+    jsonData = lel.to_json(orient='records')
+NameError: global name 'lel' is not defined
+[04/Apr/2016 13:10:47] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 164, in snpsForGene
+    jsonData = lel.to_json(orient='records')
+NameError: global name 'lel' is not defined
+[04/Apr/2016 13:11:06] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 164, in snpsForGene
+    jsonData = lel.to_json(orient='records')
+NameError: global name 'lel' is not defined
+[04/Apr/2016 13:12:15] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 13:12:15] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 13:12:15] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 13:12:15] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 13:15:44] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 164, in snpsForGene
+    jsonData = lel.to_json(orient='records')
+NameError: global name 'lel' is not defined
+[04/Apr/2016 13:17:02] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 164, in snpsForGene
+    jsonData = lel.to_json(orient='records')
+NameError: global name 'lel' is not defined
+[04/Apr/2016 13:17:47] ERROR [django.request:284] Internal Server Error: /snpsForGene/spock3/
+Traceback (most recent call last):
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Workspace_Python\GOAT_V1\GOAT_Env\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Workspace_Python\GOAT_V1\GOAT\Web\views.py", line 164, in snpsForGene
+    jsonData = lel.to_json(orient='records')
+NameError: global name 'lel' is not defined
+[04/Apr/2016 13:19:04] WARNING [django.request:182] Not Found: /autocomplete/genes/SPOCK
+[04/Apr/2016 13:19:04] WARNING [django.request:182] Not Found: /table/gene/SPOCK
+[04/Apr/2016 13:19:07] WARNING [django.request:182] Not Found: /autocomplete/genes/SPOCK3
+[04/Apr/2016 13:19:08] WARNING [django.request:182] Not Found: /table/gene/SPOCK3
+[04/Apr/2016 13:32:27] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 13:32:27] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 13:32:27] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 13:32:27] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 13:43:53] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[04/Apr/2016 13:43:56] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 13:43:56] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 13:43:56] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 13:43:56] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 13:44:07] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[04/Apr/2016 13:44:07] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 13:44:07] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 13:44:07] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 13:44:07] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 13:44:11] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[04/Apr/2016 13:52:19] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[04/Apr/2016 13:52:31] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[04/Apr/2016 14:17:58] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[04/Apr/2016 14:18:00] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 14:18:00] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 14:18:00] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 14:18:00] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 14:18:11] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[04/Apr/2016 14:18:11] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 14:18:11] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 14:18:11] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 14:18:11] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 14:18:20] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[04/Apr/2016 14:18:20] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 14:18:20] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 14:18:20] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 14:18:20] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 14:18:37] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[04/Apr/2016 14:18:37] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 14:18:37] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 14:18:37] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 14:18:37] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 14:31:16] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[04/Apr/2016 14:31:16] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 14:31:16] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 14:31:16] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 14:31:16] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 14:31:38] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[04/Apr/2016 14:31:38] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 14:31:38] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 14:31:38] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 14:31:39] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 14:34:19] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[04/Apr/2016 14:34:19] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 14:34:19] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 14:34:19] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 14:34:19] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 14:35:19] WARNING [django.request:182] Not Found: /autocomplete/genes/dok
+[04/Apr/2016 14:35:19] WARNING [django.request:182] Not Found: /autocomplete/genes/dokd
+[04/Apr/2016 14:35:19] WARNING [django.request:182] Not Found: /autocomplete/genes/dokdg
+[04/Apr/2016 14:35:19] WARNING [django.request:182] Not Found: /autocomplete/genes/dokdgj
+[04/Apr/2016 14:35:19] WARNING [django.request:182] Not Found: /autocomplete/genes/dokdgjf
+[04/Apr/2016 14:35:19] WARNING [django.request:182] Not Found: /autocomplete/genes/dokdgjfd
+[04/Apr/2016 14:35:21] WARNING [django.request:182] Not Found: /autocomplete/genes/ab
+[04/Apr/2016 14:35:21] WARNING [django.request:182] Not Found: /autocomplete/genes/abc
+[04/Apr/2016 14:35:22] WARNING [django.request:182] Not Found: /autocomplete/genes/abcq
+[04/Apr/2016 14:35:22] WARNING [django.request:182] Not Found: /autocomplete/genes/abcqs
+[04/Apr/2016 14:35:24] WARNING [django.request:182] Not Found: /autocomplete/genes/spock3
+[04/Apr/2016 14:35:26] WARNING [django.request:182] Not Found: /table/gene/spock3
+[04/Apr/2016 14:36:24] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[04/Apr/2016 14:36:25] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 14:36:25] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 14:36:25] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 14:36:25] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 14:36:25] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[04/Apr/2016 14:36:34] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[04/Apr/2016 14:36:34] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 14:36:34] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 14:36:34] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 14:36:34] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 14:36:48] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[04/Apr/2016 14:36:48] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 14:36:48] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 14:36:48] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 14:36:49] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 14:37:28] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[04/Apr/2016 14:37:28] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 14:37:28] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 14:37:28] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 14:37:28] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 14:37:38] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[04/Apr/2016 14:37:38] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 14:37:38] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 14:37:38] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 14:37:38] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 14:38:29] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[04/Apr/2016 14:38:29] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 14:38:29] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 14:38:29] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 14:38:29] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 14:39:13] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/Al
+[04/Apr/2016 14:39:13] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/All
+[04/Apr/2016 14:39:18] WARNING [django.request:182] Not Found: /autocomplete/phenotypes/All cause death
+[04/Apr/2016 14:39:19] WARNING [django.request:182] Not Found: /table/phenotype/All cause death
+[04/Apr/2016 14:46:40] WARNING [django.request:182] Not Found: /manhattan/gene/SPOCK3/1892/750
+[04/Apr/2016 14:54:29] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[04/Apr/2016 14:55:02] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[04/Apr/2016 14:55:03] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 14:55:03] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 14:55:03] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 14:55:03] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 14:55:12] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[04/Apr/2016 14:55:12] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 14:55:12] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 14:55:12] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 14:55:12] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 14:56:03] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[04/Apr/2016 14:56:03] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 14:56:03] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 14:56:03] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 14:56:03] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 14:56:38] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[04/Apr/2016 14:56:38] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 14:56:38] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 14:56:38] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 14:56:38] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 14:57:01] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[04/Apr/2016 14:57:01] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 14:57:01] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 14:57:01] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 14:57:01] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 14:58:40] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[04/Apr/2016 14:58:40] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 14:58:40] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 14:58:40] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 14:58:40] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 14:58:52] WARNING [django.request:182] Not Found: /static/js/typeahead.js
+[04/Apr/2016 14:58:52] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 14:58:52] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 14:58:52] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 14:58:52] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 14:59:10] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 14:59:10] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 14:59:10] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 14:59:10] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 14:59:45] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 14:59:45] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 14:59:45] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 14:59:45] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 15:00:17] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 15:00:17] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 15:00:17] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 15:00:17] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 15:01:21] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 15:01:21] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 15:01:21] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 15:01:21] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 15:01:36] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 15:01:36] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 15:01:36] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 15:01:36] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 15:01:53] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 15:01:53] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 15:01:53] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 15:01:53] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 15:02:18] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 15:02:18] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 15:02:18] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 15:02:18] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 15:02:52] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 15:02:52] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 15:02:52] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 15:02:52] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 15:03:05] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 15:03:05] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 15:03:05] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 15:03:05] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 15:03:29] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 15:03:29] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 15:03:29] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 15:03:29] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 15:03:39] WARNING [django.request:182] Not Found: /autocomplete/genes/abcd
+[04/Apr/2016 15:03:45] WARNING [django.request:182] Not Found: /autocomplete/genes/spock3
+[04/Apr/2016 15:03:46] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 15:03:46] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 15:03:46] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 15:03:46] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 15:04:17] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 15:04:17] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 15:04:17] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 15:04:17] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 15:04:20] WARNING [django.request:182] Not Found: /autocomplete/genes/fd
+[04/Apr/2016 15:04:20] WARNING [django.request:182] Not Found: /autocomplete/genes/fdg
+[04/Apr/2016 15:04:20] WARNING [django.request:182] Not Found: /autocomplete/genes/fdgd
+[04/Apr/2016 15:04:20] WARNING [django.request:182] Not Found: /autocomplete/genes/fdgdf
+[04/Apr/2016 15:04:20] WARNING [django.request:182] Not Found: /autocomplete/genes/fdgdfg
+[04/Apr/2016 15:04:21] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 15:04:21] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 15:04:21] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 15:04:21] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 15:04:50] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 15:04:50] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 15:04:50] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 15:04:50] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 15:04:54] WARNING [django.request:182] Not Found: /autocomplete/genes/SPOc
+[04/Apr/2016 15:04:54] WARNING [django.request:182] Not Found: /autocomplete/genes/SPOck
+[04/Apr/2016 15:05:13] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 15:05:13] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 15:05:13] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 15:05:14] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 15:05:18] WARNING [django.request:182] Not Found: /snpsForGene/spock3
+[04/Apr/2016 15:06:50] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 15:06:50] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 15:06:50] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 15:06:50] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 15:06:56] WARNING [django.request:182] Not Found: /snpsForGene/SPOCK3
+[04/Apr/2016 15:23:22] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 15:23:22] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 15:23:22] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 15:23:22] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 15:24:22] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 15:24:22] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 15:24:22] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 15:24:22] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 15:24:29] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 15:24:29] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 15:24:29] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 15:24:29] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 15:24:33] WARNING [django.request:182] Not Found: /autocomplete/genes/SPOCk
+[04/Apr/2016 15:24:33] WARNING [django.request:182] Not Found: /autocomplete/genes/SPOCk3
+[04/Apr/2016 15:47:49] WARNING [django.request:182] Not Found: /snpsForGene/spock3
+[04/Apr/2016 15:49:13] WARNING [django.request:182] Not Found: /table/gene/spock
+[04/Apr/2016 15:54:58] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 15:54:58] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 15:54:58] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 15:54:58] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 15:55:00] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 15:55:00] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 15:55:00] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 15:55:00] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 15:55:22] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 15:55:22] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 15:55:22] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 15:55:22] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 15:55:35] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 15:55:35] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 15:55:35] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 15:55:36] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 15:55:47] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 15:55:47] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 15:55:47] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 15:55:47] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 15:56:09] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 15:56:09] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 15:56:09] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 15:56:09] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 15:58:50] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 15:58:50] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 15:58:50] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 15:58:50] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 15:58:54] WARNING [django.request:182] Not Found: /snpsForGene/spock
+[04/Apr/2016 16:03:55] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 16:03:55] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 16:03:55] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 16:03:56] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 16:05:23] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 16:05:23] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 16:05:23] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 16:05:23] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 16:05:44] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 16:05:44] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 16:05:44] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 16:05:44] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 16:06:30] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 16:06:30] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 16:06:30] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 16:06:30] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 16:06:33] WARNING [django.request:182] Not Found: /autocomplete/genes/spocy
+[04/Apr/2016 16:06:33] WARNING [django.request:182] Not Found: /autocomplete/genes/spocyk
+[04/Apr/2016 16:06:33] WARNING [django.request:182] Not Found: /autocomplete/genes/spocyk3
+[04/Apr/2016 16:06:35] WARNING [django.request:182] Not Found: /autocomplete/genes/spoc3
+[04/Apr/2016 16:06:36] WARNING [django.request:182] Not Found: /autocomplete/genes/SPOCk
+[04/Apr/2016 16:06:59] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 16:06:59] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 16:06:59] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 16:06:59] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 16:07:25] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 16:07:25] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 16:07:25] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 16:07:26] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 16:08:18] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 16:08:18] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 16:08:18] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 16:08:18] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 16:12:42] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 16:12:42] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 16:12:42] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 16:12:42] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 16:15:47] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 16:15:47] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 16:15:47] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 16:15:48] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 16:15:49] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 16:15:49] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 16:15:49] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 16:15:49] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 16:17:25] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 16:17:25] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 16:17:25] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 16:17:25] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 16:37:21] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 16:37:21] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 16:37:21] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 16:37:21] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 16:38:10] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 16:38:10] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 16:38:10] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 16:38:10] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 16:43:04] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 16:43:04] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 16:43:04] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 16:43:04] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 16:45:10] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 16:45:10] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 16:45:10] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 16:45:10] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 16:55:36] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 16:55:36] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 16:55:36] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 16:55:36] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[04/Apr/2016 16:57:25] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[04/Apr/2016 16:57:25] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[04/Apr/2016 16:57:25] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[04/Apr/2016 16:57:25] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[07/Apr/2016 13:25:20] WARNING [django.request:182] Not Found: /favicon.ico
+[07/Apr/2016 13:25:22] WARNING [django.request:182] Not Found: /phenotypes
+[07/Apr/2016 13:28:51] WARNING [django.request:182] Not Found: /autocomplete/genes/po
+[07/Apr/2016 13:28:53] WARNING [django.request:182] Not Found: /autocomplete/genes/sp
+[07/Apr/2016 13:28:53] WARNING [django.request:182] Not Found: /autocomplete/genes/spo
+[07/Apr/2016 13:28:53] WARNING [django.request:182] Not Found: /autocomplete/genes/spoc
+[07/Apr/2016 13:28:53] WARNING [django.request:182] Not Found: /autocomplete/genes/spock
+[07/Apr/2016 13:28:53] WARNING [django.request:182] Not Found: /autocomplete/genes/spock3
+[07/Apr/2016 13:28:54] WARNING [django.request:182] Not Found: /snpsForGene/spock3
+[07/Apr/2016 13:28:58] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[07/Apr/2016 13:28:58] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[07/Apr/2016 13:28:58] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[07/Apr/2016 13:28:58] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[07/Apr/2016 13:31:30] WARNING [django.request:182] Not Found: /autocomplete/genes/um
+[07/Apr/2016 13:31:30] WARNING [django.request:182] Not Found: /autocomplete/genes/umo
+[07/Apr/2016 13:31:30] WARNING [django.request:182] Not Found: /autocomplete/genes/umod
+[07/Apr/2016 13:31:33] WARNING [django.request:182] Not Found: /autocomplete/genes/UMOD
+[07/Apr/2016 13:31:33] WARNING [django.request:182] Not Found: /snpsForGene/UMOD
+[07/Apr/2016 13:32:07] WARNING [django.request:182] Not Found: /autocomplete/genes/SPOCK
+[07/Apr/2016 13:32:10] WARNING [django.request:182] Not Found: /snpsForGene/SPOCK
+[07/Apr/2016 13:32:12] WARNING [django.request:182] Not Found: /autocomplete/genes/SPOCK3
+[07/Apr/2016 13:33:25] WARNING [django.request:182] Not Found: /manhattan/phenotype/All cause death/1892/750
+[07/Apr/2016 13:38:46] WARNING [django.request:182] Not Found: /table/phenotype/All cause death
+[07/Apr/2016 15:05:54] WARNING [django.request:182] Not Found: /favicon.ico
+[07/Apr/2016 15:06:31] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[07/Apr/2016 15:06:31] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[07/Apr/2016 15:06:31] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[07/Apr/2016 15:10:43] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[07/Apr/2016 15:10:43] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[07/Apr/2016 15:10:43] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[07/Apr/2016 16:42:30] WARNING [django.request:182] Not Found: /autocomplete/genes/do
+[07/Apr/2016 16:42:30] WARNING [django.request:182] Not Found: /autocomplete/genes/dok
+[12/Apr/2016 12:34:42] WARNING [django.request:182] Not Found: /favicon.ico
+[12/Apr/2016 12:37:38] WARNING [django.request:182] Not Found: /phenotypes
+[12/Apr/2016 12:37:48] WARNING [django.request:182] Not Found: /autocomplete/genes/sp
+[12/Apr/2016 12:37:48] WARNING [django.request:182] Not Found: /autocomplete/genes/spo
+[12/Apr/2016 12:38:26] WARNING [django.request:182] Not Found: /table/phenotype/All cause death
+[12/Apr/2016 12:40:28] WARNING [django.request:182] Not Found: /manhattan/phenotype/Unmet Renal Needs (uACR)/1701/750
+[12/Apr/2016 12:40:31] WARNING [django.request:182] Not Found: /manhattan/phenotype/All cause death/1701/750
+[12/Apr/2016 12:42:23] WARNING [django.request:182] Not Found: /autocomplete/genes/spoc
+[12/Apr/2016 12:42:23] WARNING [django.request:182] Not Found: /autocomplete/genes/spock
+[12/Apr/2016 12:42:23] WARNING [django.request:182] Not Found: /autocomplete/genes/spock3
+[12/Apr/2016 12:42:25] WARNING [django.request:182] Not Found: /manhattan/gene/spock3/1701/750
+[12/Apr/2016 12:46:35] WARNING [django.request:182] Not Found: /static/js/bokeh.min.js.map
+[12/Apr/2016 12:46:35] WARNING [django.request:182] Not Found: /static/css/bokeh.min.css.map
+[12/Apr/2016 12:46:35] WARNING [django.request:182] Not Found: /static/css/bootstrap.min.css.map
+[12/Apr/2016 12:46:35] WARNING [django.request:182] Not Found: /static/css/bootstrap-theme.min.css.map
+[12/Apr/2016 12:49:10] WARNING [django.request:182] Not Found: /autocomplete/genes/SPOCK2
+[12/Apr/2016 12:49:11] WARNING [django.request:182] Not Found: /autocomplete/genes/SPOCK
+[12/Apr/2016 12:49:11] WARNING [django.request:182] Not Found: /autocomplete/genes/SPOCK3
+[12/Apr/2016 12:49:13] WARNING [django.request:182] Not Found: /snpsForGene/SPOCK3

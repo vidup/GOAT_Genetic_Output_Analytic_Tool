@@ -7,10 +7,6 @@
     "start": "watchify src/main.jsx -v -t [babelify --presets [ react ] ] -o ../public/js/main.js",
     "watch": "gulp"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/helvanic/react-skeleton.git"
-  },
   "keywords": [
     "react",
     "skeleton",
@@ -19,11 +15,7 @@
     "babelify"
   ],
   "author": "Victor Dupuy",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/helvanic/react-skeleton/issues"
-  },
-  "homepage": "https://github.com/helvanic/react-skeleton#readme",
+  "license": "Apache v2",
   "dependencies": {
     "babel-preset-react": "^6.5.0",
     "babelify": "^7.2.0",
