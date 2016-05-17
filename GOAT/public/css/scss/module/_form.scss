@@ -1,0 +1,98 @@
+/* Variables for form */
+
+$maincolor:#3498db;
+$successcolor:#2ecc71;
+$errorcolor:#e74c3c;
+$backgroundcolor:#7f8c8d;
+
+$btncolor:#7f8c8d;
+$btnwidth:30%;
+
+%form-variables{
+    font-size: 1.5em;
+}
+
+.form-container{
+    @extend %clearfix;
+
+    position:relative;
+    display:block;
+    width: 100%;
+
+    padding: 0.8em;
+    border: none;
+    border-radius: 0;
+    background: #f0f0f0;
+
+    color: #aaa;
+    font-weight: bold;
+    font-family:Open Sans, Arial, sans-serif;
+}
+
+
+.form-legend{
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.form-label {
+    @extend %form-variables;
+    display: block;
+    font-size: 1em;
+
+    margin: 20px 0 0 0;
+
+    &:before{
+
+    }
+}
+
+.form-label-content{
+
+}
+
+%form-input{
+    @extend %form-variables;
+    padding: 10px;
+    margin: 10px 0 0 0;
+}
+
+.form-input-text{
+    @extend %form-input;
+
+}
+
+.form-select{
+    @extend %form-input;
+    font-size: 1em;
+}
+
+.form-input-textarea{
+    @extend %form-input;
+}
+
+.form-error-message{
+    @extend %visuallyhidden;
+}
+
+.form-list{
+  >li{
+    display: inline;
+    list-style: none;
+    margin: 10px;
+    >.form-label{
+      display: inline-block;
+    }
+  }
+}
+
+.form-submit{
+    @extend .btn;
+    width: $btnwidth;
+    margin:auto;
+    margin-top: 20px;
+    background: $btncolor;
+    border-bottom: 2px solid darken($btncolor, 10);
+    @include box-shadow(#{inset 0 -2px darken($btncolor, 10)});
+}

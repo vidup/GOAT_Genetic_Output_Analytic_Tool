@@ -1,0 +1,132 @@
+.table-container{
+  overflow-x: auto;
+  width: 100%;
+}
+
+.table-goat{
+
+}
+
+
+.griddle-container{
+  border:1px solid #DDD;
+}
+
+.griddle .top-section{
+  clear:both;
+  display:table;
+  width:100%;
+}
+
+.griddle .griddle-filter{
+  float:left;
+  width:200px;
+  text-align:left;
+  color:#222;
+  min-height:1px;
+  margin: 5px;
+}
+
+.settings{
+    margin: 5px;
+    width: 50%;
+    height: 34px;
+    background: $colorSidebar;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid darken($colorSidebar,30%);
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: sans-serif;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 0;
+    &:hover{
+        background: lighten($colorSidebar,10%);
+    }
+}
+
+.griddle .griddle-settings-toggle{
+  float:right;
+  width:200px;
+  text-align:right;
+}
+
+.griddle .griddle-settings{
+  background-color:#FFF;
+  border:1px solid #DDD;
+  color:#222;
+  padding:10px;
+  margin-bottom:10px;
+}
+
+.griddle .griddle-settings .griddle-columns{
+  clear:both;
+  display:table;
+  width:100%;
+  border-bottom:1px solid #EDEDED;
+  margin-bottom:10px;
+}
+
+.griddle .griddle-settings .griddle-column-selection{
+  float:left;
+  width:20%;
+}
+.griddle table{
+  width:100%;table-layout:auto;
+}
+
+.griddle thead{
+
+}
+
+.griddle th{
+  border:0px;
+  border-bottom:1px solid #dddddd;
+  background-color: #cccccc;
+  color:#222;
+  padding:5px;
+  cursor: pointer;
+  border:1px solid #dddddd;
+
+}
+
+.griddle td{
+  padding:5px;
+  border-top-color:#dddddd;
+  border:1px solid #dddddd;
+  color:#222222;
+  width: auto;
+
+
+}
+
+.griddle tr{
+  &:nth-child(even) {background-color: #ededef}
+  &:nth-child(odd) {background-color:#ffffff;}
+}
+
+.griddle .footer-container{
+  padding:0px;
+  background-color:#EDEDED;
+  border:0px;
+  color:#222;
+}
+
+.griddle .griddle-previous, .griddle .griddle-page, .griddle .griddle-next{
+  float:left;
+  width:33%;
+  min-height:1px;
+  margin-top:5px;
+}
+
+.griddle .griddle-page{
+  text-align:center;
+}
+
+.griddle .griddle-next{
+  text-align:right;
+}

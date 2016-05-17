@@ -1,0 +1,218 @@
+/* Fonts */
+@font-face {
+  font-family: 'Monserrat';
+  /*a name to be used later*/
+  src: url("../fonts/Montserrat-Regular.otf");
+  /*URL to font*/ }
+
+@font-face {
+  font-family: 'Montserrat-Light';
+  /*a name to be used later*/
+  src: url("../fonts/Montserrat-Light.otf");
+  /*URL to font*/ }
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  /*a name to be used later*/
+  src: url("../fonts/Montserrat-Bold.otf");
+  /*URL to font*/ }
+
+@font-face {
+  font-family: 'Montserrat-Black';
+  /*a name to be used later*/
+  src: url("../fonts/Montserrat-Black.otf");
+  /*URL to font*/ }
+
+/* Base */
+html, body{
+  height : 100%;
+  width :100%;
+  background-color: #231c22 !important;
+}
+.content{
+  background-color: #231c22;
+}
+
+.menu{
+  position : fixed;
+  top:0;
+  height : 100%;
+}
+
+.menu li h2{
+  margin : 0;
+  text-align: center;
+  font-size: 3em;
+  padding : 30px 0;
+  -moz-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+  -moz-transition: "background-color" 0.3s ease;
+  -o-transition: "background-color" 0.3s ease;
+  -webkit-transition: "background-color" 0.3s ease;
+  transition: "background-color" 0.3s ease;
+}
+
+.menu li h2:hover{
+  color : #231c22;
+  background-color: #ededed;
+  cursor : pointer;
+}
+
+/* Col-centered */
+.col-centered{
+    float: none !important;
+    margin: 0 auto;
+}
+/* Griddle */
+
+.table-container {
+  overflow-x: auto;
+  width: 100%; }
+
+.griddle-container {
+  border: 1px solid #DDD;
+  margin : auto;
+  width : 90%;
+  height : auto !important; }
+
+.griddle .top-section {
+  clear: both;
+  display: table;
+  width: 100%;
+}
+
+.griddle .griddle-filter {
+  float: left;
+  width: 200px;
+  text-align: left;
+  color: #222;
+  min-height: 1px;
+  margin: 5px; }
+
+.griddle-filter{
+  float :none !important; /* So many !important :'(  No choice, since i'm dealing with a react Component that generate inline styling */
+  margin : 10px auto !important;
+}
+.settings {
+  margin: 5px auto !important;
+  width: 50%;
+  height: 34px;
+  background: #2c3136;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid black;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: sans-serif;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  padding: 0; }
+  .settings:hover {
+    background: #434b52; }
+
+.griddle .griddle-settings-toggle {
+  margin : auto;
+  float: none !important;
+  width: 200px;
+  text-align: center !important; }
+
+.griddle .griddle-settings {
+  background-color: #FFF;
+  border: 1px solid #DDD;
+  color: #222;
+  padding: 10px;
+  margin-bottom: 10px; }
+
+.griddle .griddle-settings .griddle-columns {
+  clear: both;
+  display: table-cell;
+  width: 100%;
+  border-bottom: 1px solid #EDEDED;
+  margin-bottom: 10px; }
+
+.griddle .griddle-settings .griddle-column-selection {
+  float: left;
+  width: 20%; }
+
+.griddle table {
+  width: 100%;
+  table-layout: auto; }
+
+.griddle th {
+  border: 0px;
+  border-bottom: 1px solid #dddddd;
+  background-color: #cccccc;
+  color: #222;
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid #dddddd;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.griddle td {
+  padding: 5px;
+  border-top-color: #dddddd;
+  border: 1px solid #dddddd;
+  color: #222222;
+  width: auto;
+}
+
+.griddle tr:nth-child(even) {
+  background-color: #ededef; }
+
+.griddle tr:nth-child(odd) {
+  background-color: #ffffff; }
+
+.griddle .footer-container {
+  padding: 0px;
+  background-color: #EDEDED;
+  border: 0px;
+  color: #222; }
+
+.griddle .griddle-previous, .griddle .griddle-page, .griddle .griddle-next {
+  float: left;
+  width: 33%;
+  min-height: 1px;
+  margin-top: 5px; }
+
+.griddle .griddle-page {
+  text-align: center; }
+
+.griddle .griddle-next {
+  text-align: right; }
+
+.griddle .standard-row{
+    word-wrap: break-word;
+}
+
+/* ************* Graphs *************** */
+tr ul{
+  float : left;
+}
+
+.bk-canvas-wrapper{
+  position : relative; /* Bootstrap was breaking this. Needed for overlay and events */
+}
+.bk-button-bar-list{
+  padding : 0; /* Same */
+  list-style-type: none;
+}
+
+.bk-button-bar-list li{
+  display : block;
+  float : left;
+}
+
+.bk-plot table{ /* Centers the plot in its container */
+  margin: auto;
+}
+
+.bk-plot-above{ /* This is the styling for the header buttons */
+  background-color: #fff;
+}

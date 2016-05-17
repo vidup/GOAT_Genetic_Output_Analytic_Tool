@@ -1,0 +1,38 @@
+.module-container{
+width: 350px;
+border: 1px solid gray;
+box-shadow: 1px 1px 3px #888;
+border-top: 10px solid #2c3136;
+min-height: 250px;
+padding-: 10px;
+margin: 10px;
+}
+.module-name{
+  text-align: center;
+  margin: 5px;
+  text-transform: uppercase;
+}
+.module-description{
+  font-size: 0.9em;
+  margin: 5px 0;
+}
+.module-link{
+  color:#2c3136;
+  outline: none;
+  position: relative;
+  display: inline-block;
+  line-height: 40px;
+  padding: 0 16px;
+}
+.module-actionbar{
+  position: relative;
+  bottom: 0;
+  top: auto;
+  left: 0;
+  right: 0;
+  padding: 0 8px;
+  border-top: 1px solid #E0E0E0;
+  boz-sizing: border-box;
+  height: auto;
+  transition: left 200ms cubic-bezier(0.075, 0.820, 0.165, 1.000);
+}

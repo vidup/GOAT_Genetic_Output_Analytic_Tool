@@ -1,0 +1,87 @@
+/* --------------------------------
+
+Sidebar
+
+-------------------------------- */
+.sidebarRight{
+  position: relative;
+  float: right;
+  width: 20%;
+}
+
+.cd-side-nav {
+  position: relative;
+  float: left;
+  width: 20%;
+  max-width: 200px;
+  height: 100vh;
+  padding: 30px 0 0;
+  background-color: $colorSidebar;
+  //background: url(../img/sidebar-bg.png) ;
+  overflow: hidden;
+  a {
+    display: block;
+    position: relative;
+    color: #ffffff;
+    font-size: 1.4rem;
+  }
+  >ul>li{
+    padding: 1em 0;
+  }
+  .has-children>a{
+    font-weight: bold;
+    padding:0 0 1em 0.5em;
+  }
+  .has-children>ul>li>a{
+      display: block;
+      padding: 1em 1em;
+      font-weight: normal;
+      background-color: darken($colorSidebar,6%);
+      border-radius: .25em;
+      border: none;
+      text-align: left;
+      color: #ffffff;
+  }
+  @media screen and (max-width: $break-small) {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+.nav-username{
+  display: block;
+  font-weight: bold;
+  font-size: 1em;
+  letter-spacing: .1em;
+  padding-left: calc(5% + 24px);
+  &:before{
+    position: absolute;
+    content: '';
+    left: 5%;
+    top: 50%;
+    bottom: auto;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    background: url(../img/user-icon.png) no-repeat;
+  }
+}
+
+.cd-label{
+  display: block;
+  padding: 2em 5% 1em 5%;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #646a6f;
+  font-size: 1em;
+  letter-spacing: .1em;
+}
+
+
+
+
+
